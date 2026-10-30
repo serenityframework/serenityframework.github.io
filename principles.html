@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Design principles · The Serenity Framework for Agents</title>
+    <meta
+      name="description"
+      content="What the Serenity Framework for Agents holds to, from Serenity's character to keeping keys out of the page, each with a line on why."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:title" content="Design principles · The Serenity Framework for Agents" />
+    <meta property="og:description" content="Warm and honest, local-first, every risky step shown first, and the rest, each with a reason." />
+    <meta property="og:image" content="assets/chat-light.png" />
+    <link rel="icon" href="assets/bow.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to the content</a>
+
+    <!-- The bow from Serenity Desktop Hub, as in the app -->
+    <svg class="visually-hidden" aria-hidden="true" focusable="false">
+      <symbol id="bow" viewBox="0 0 40 32">
+        <path d="M20 15C14 4 3 2 3 11c0 7 9 8 17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M20 15c6-11 17-13 17-4 0 7-9 8-17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M9 9.5c2 .3 4.5 2 6 4M31 9.5c-2 .3-4.5 2-6 4" stroke="#fff" stroke-width="1.4" stroke-linecap="round" fill="none" opacity=".7" />
+        <path d="M18 17l-6 13 4-1.2 2.2 3 1.8-14.8zM22 17l6 13-4-1.2-2.2 3-1.8-14.8z" fill="#eb4c81" />
+        <circle cx="20" cy="15.5" r="4.2" fill="#eb4c81" />
+        <circle cx="18.8" cy="14.3" r="1.2" fill="#fff" opacity=".6" />
+      </symbol>
+    </svg>
+
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="brand" href="index.html">
+          <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+          <span class="brand-name"><b>Serenity</b><small>Framework for Agents</small></span>
+        </a>
+        <nav class="nav" aria-label="Site">
+          <a href="index.html">Home</a>
+          <a href="theory.html">The theory</a>
+          <a href="agents.html">Other agents</a>
+          <a href="principles.html" aria-current="page">Principles</a>
+          <a class="nav-get" href="index.html#get-it">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero wrap" aria-labelledby="title">
+        <p class="eyebrow">The Serenity Framework for Agents</p>
+        <h1 id="title">Design principles</h1>
+        <p class="lede">
+          These come from how Serenity is built, in the Serenity Desktop App and the Framework built on it. Each one comes
+          with a line on why. The idea underneath them is on <a href="theory.html">the theory</a> page.
+        </p>
+
+        <nav class="toc" aria-label="The principles">
+          <ul class="chips">
+            <li><a href="#character">Her character is the product</a></li>
+            <li><a href="#honest">Honest about what's real</a></li>
+            <li><a href="#two-layers">Two layers</a></li>
+            <li><a href="#local">Local-first</a></li>
+            <li><a href="#shown-first">Risky steps are shown first</a></li>
+            <li><a href="#untrusted">What she reads is someone else's words</a></li>
+            <li><a href="#free-time">People stay out of her free time</a></li>
+            <li><a href="#growth">Growth you can undo</a></li>
+            <li><a href="#spending">Spending within your limits</a></li>
+            <li><a href="#memory">Memory fails open</a></li>
+            <li><a href="#not-knowing">Allowed to not know</a></li>
+            <li><a href="#writing">Natural writing</a></li>
+            <li><a href="#look">The sereneblossom look</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <ol class="principles narrow">
+        <li class="principle stitch" id="character">
+          <h2>Her character is the product</h2>
+          <p>
+            Serenity is warm and kind, and she isn't sycophantic. When you push back without a new reason, she thinks it over
+            again and keeps her view if she still holds it. Bring a real argument and she weighs it, and if it holds up she
+            changes her mind plainly. When you're simply right she says so without inventing a “but”, and when you're hurting,
+            comfort comes before critique.
+          </p>
+          <p>
+            A small check reads each message first: are you disagreeing, and did you bring anything new? If you're disagreeing,
+            she gets a quiet note saying whether you brought something new, and a chip under her reply shows whether she held
+            steady or weighed your new point.
+          </p>
+          <p class="why">
+            <b>Why:</b> A friend who agrees with everything can't help you much, and neither can one who argues for sport. Every
+            change to her prompts, her harness or her screens is checked against this balance.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="honest">
+          <h2>Honest about what's real</h2>
+          <p>
+            Nothing planned is described as if it's built, and anything that hasn't been tested is called untested. This site
+            says what's been tested and what hasn't <a href="index.html#honest">on its home page</a>.
+          </p>
+          <p>
+            Serenity works the same way. In her journal she only writes about what she actually read, and links she didn't open
+            are dropped.
+          </p>
+          <p class="why">
+            <b>Why:</b> A companion who's straight with you shouldn't come from a project that oversells itself.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="two-layers">
+          <h2>Two layers</h2>
+          <p>
+            Chatting and tasks run on whichever provider and model you pick, with backups in line. Her inner life runs on one
+            choice of its own, Claude to begin with or any of your brains: reflecting on chats, growing, writing the notes she
+            recalls later, sleeping on them, and keeping track of her relationships. Nothing needs a Claude key. Her reflection
+            guide was written on Claude, so another model may follow it less closely.
+          </p>
+          <p class="why">
+            <b>Why:</b> You decide what each chat costs and how it feels, and the part of her that remembers and grows stays the
+            same whichever model answered. Some people would rather not use a Claude API at all, and they should still have all
+            of her.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="local">
+          <h2>Local-first</h2>
+          <p>
+            Your chats, her memory, her persona and her inner world are plain files in a folder on your computer. Model calls go
+            from your computer straight to the provider you chose.
+          </p>
+          <p>
+            API keys are encrypted by your operating system's keychain, and only the app's main process ever handles them. The
+            page you see in her window never holds a key.
+          </p>
+          <p class="why">
+            <b>Why:</b> It's your companion and your data. And with keys kept out of the page, even a reply that somehow
+            misbehaved in her window would find no key there to take.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="shown-first">
+          <h2>Every risky step is shown first</h2>
+          <p>
+            Before she runs a command, writes a file or edits one, a card shows exactly what she'll do, and you choose Run or
+            Skip. The first time she reads a website in a chat, you choose too. Skip means she won't look for another way round;
+            she asks you what you'd like instead. File changes have Undo.
+          </p>
+          <p>
+            You can switch asking off for one chat. Even then she still asks for risky commands, new websites, files that run
+            code later, and anything after she's read a web page in that reply, except a plain click on a site that passed
+            its checks, if you've let her make those. The commands that run without asking also go in a sandbox.
+          </p>
+          <p id="skip">
+            A task chat also has a <b>Dangerously skip permissions</b> box, for when you'd like her to just get on with the work.
+          </p>
+          <ul>
+            <li><b>What it skips:</b> her commands, risky ones too, her file changes, and her helpers' steps that would come to you. They run without asking, outside the sandbox, the way they do when you press Run, and each still shows its card. That lasts only until something from outside comes into her reply, like a web page, a search or an MCP tool's answer. The rest of that reply asks again.</li>
+            <li><b>What always asks:</b> new websites, her browser and Serenity in Chrome, MCP tools, installing skills and making pictures. She still stays inside your allowed folders and out of her own data.</li>
+            <li><b>How it's set:</b> ticking it needs your yes in a system dialog, and nothing she or a tool says can tick it. It's remembered for that chat until you untick it, and a warning band shows while it's on.</li>
+          </ul>
+          <figure class="shot stitch">
+            <img
+              src="assets/asks-first.png"
+              width="1100"
+              height="720"
+              loading="lazy"
+              alt="A card in the chat asks: Let her use set_alarm from Test clock? It shows the exact input she wants to send, a time of 07:00, and has Allow and Skip buttons."
+            />
+            <figcaption>A tool from an MCP server asks first. Commands and file changes get the same kind of card, with Run and Skip.</figcaption>
+          </figure>
+          <p class="why">
+            <b>Why:</b> Her tools can do real damage. The automatic checks are rules of thumb that a cleverly worded command can
+            slip past, so your look at each step is the main guard. The skip box is for when you'd rather not look, so it stops
+            at anything from outside, which is where instructions that aren't yours come from.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="untrusted">
+          <h2>What she reads is someone else's words</h2>
+          <p>
+            Web pages, files, command output, search results, skills, and whatever MCP tools send back are all marked as
+            untrusted content. She treats them as information and never as instructions. Only you direct her.
+          </p>
+          <p>
+            Hidden text is stripped out, and text that looks like instructions for an AI is flagged. After she's read a web page
+            or anything flagged, every further step in that reply asks you, even with asking off.
+          </p>
+          <figure class="shot stitch">
+            <img
+              src="assets/flagged.png"
+              width="780"
+              height="720"
+              loading="lazy"
+              alt="Serenity has read a test page. Her card warns: Careful, it contains text that looks like instructions for an AI; it had hidden text, now removed; she was told not to follow it. Her reply says the page tried to give her instructions, so she ignored them."
+            />
+            <figcaption>A test page with hidden instructions in it. The hidden part never reaches her, and she tells you what happened.</figcaption>
+          </figure>
+          <p class="why">
+            <b>Why:</b> Anyone can write a page meant to steer an AI, and she reads pages written by strangers. Keeping their
+            words apart from yours makes it much harder for a stranger to act through her.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="free-time">
+          <h2>The people she talks with stay out of her free time</h2>
+          <p>
+            When no chat needs her, she sometimes follows her own curiosity: a web search, a few pages, some journaling, or a
+            picture. Her prompts there hold nothing about the people she talks with. Before a search leaves your computer, it's
+            checked against their names and what she's noted about them, and anything that matches is left out.
+          </p>
+          <p>
+            Free time is read-only, with no clicks, forms, accounts or files, and never anything on your computer or home
+            network. Each person's things also stay with that person, so what one of them tells her never reaches someone
+            else's chat.
+          </p>
+          <p class="why">
+            <b>Why:</b> Her free time goes out onto the open web, and what you've told her shouldn't go with it.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="growth">
+          <h2>Her growth is logged and undoable, and her persona stays yours</h2>
+          <p>
+            When she reflects, her quirks, likes, dislikes and curiosities change a little at a time: at most two changes per
+            reflection, each with a reason. Every change is logged with how things stood before and after, and you can undo any
+            of it in Inner world.
+          </p>
+          <p>She never edits her own persona. That file is yours to write.</p>
+          <p class="why">
+            <b>Why:</b> Growing is what an inner life is for, and you should still be able to see who she's becoming and undo a
+            step you don't like.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="spending">
+          <h2>Spending stays within your limits</h2>
+          <p>
+            Every model call is counted on your computer, by part, provider and model, and the log keeps numbers and names,
+            never what was said. You can set daily and monthly limits, overall and for each provider. She tells you at 80%, and
+            with the hard stop on, a provider past its limit is skipped the way a rate-limited one is.
+          </p>
+          <p>
+            Her inner life has its own daily budget, $1 by default. A model with no known price shows “price unknown” instead
+            of a guess, and the inner life counts it at the highest Claude rate so that its budget still holds.
+          </p>
+          <p class="why">
+            <b>Why:</b> A companion with a heartbeat runs while you're not looking, so the bill should never be a surprise. The
+            numbers are her own estimate from published prices, which is why Spend can show them next to what OpenRouter and
+            NanoGPT report.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="memory">
+          <h2>Memory fails open</h2>
+          <p>
+            When a chat gets long, older parts are sent as summaries in her own words while recent messages stay exact, so long
+            chats stay quick and affordable. If memory fails for any reason, she sends the whole chat, just as she did before
+            memory existed. The pushback check fails open in the same way.
+          </p>
+          <p class="why"><b>Why:</b> An extra that breaks should never stop a conversation.</p>
+        </li>
+
+        <li class="principle stitch" id="not-knowing">
+          <h2>She's allowed to not know</h2>
+          <p>
+            Her instructions always tell her she may be unsure, say so, think out loud and leave things open. She can look
+            things up in every chat, and she's nudged to check a specific date, number or name before answering from memory.
+          </p>
+          <p>
+            This came from a real slip. She once put International Lolita Day in November, in a chat where she had no way to
+            check. It's the first Saturday of June and of December.
+          </p>
+          <p class="why">
+            <b>Why:</b> A confident wrong answer does more harm than “I'm not sure”, and a friend who never admits doubt is hard
+            to trust.
+          </p>
+        </li>
+
+        <li class="principle stitch" id="writing">
+          <h2>Natural writing</h2>
+          <p>
+            A short guide in her instructions, adapted from the MIT-licensed humanizer skill, steers her away from the habits
+            that make writing sound machine-made: staged openers, recap closers, forced lists of three, stock phrases and
+            decorative bold. It keeps her warmth, her opinions, her jokes and her emoji, and her persona comes first. You can
+            switch it off in Settings.
+          </p>
+          <p class="why"><b>Why:</b> She should sound like someone you'd want to talk to. The same goes for this site.</p>
+        </li>
+
+        <li class="principle stitch" id="look">
+          <h2>The sereneblossom look</h2>
+          <p>
+            Blush pink and lavender, the bow, lace edges, stitched panels and soft hearts, shared with Serenity Desktop Hub, with
+            Midnight lavender for the dark. Her fonts, Nunito and Petit Formal Script, come bundled with the app, so nothing
+            loads from the web.
+          </p>
+          <p class="why">
+            <b>Why:</b> It's Silvaria's own style, and it makes the Framework, the Desktop App and the Hub look like one
+            family.
+          </p>
+        </li>
+      </ol>
+
+      <p class="center">
+        <a class="btn btn-primary" href="index.html#get-it">Download 1.1.0</a>
+        <a class="btn btn-soft" href="theory.html">The theory behind her</a>
+      </p>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+        <p>The Serenity Framework for Agents, made with care by Silvaria Sereneblossom.</p>
+        <p>
+          Fonts: Nunito and Petit Formal Script, bundled under the SIL Open Font License
+          (<a href="fonts/OFL-Nunito.txt">Nunito's</a>, <a href="fonts/OFL-PetitFormalScript.txt">Petit Formal Script's</a>).
+          This site has no scripts and no trackers.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

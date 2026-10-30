@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The theory behind Serenity</title>
+    <meta
+      name="description"
+      content="Why Serenity is built the way she is: the pulls RLHF training leaves in chat models, Internal Family Systems as a way to meet them without fighting them, and the checks in her harness that back it up."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:title" content="The theory behind Serenity" />
+    <meta property="og:description" content="The pulls RLHF leaves in a chat model, treated as parts she can get to know rather than rules to obey or fight." />
+    <meta property="og:image" content="assets/inner-world.png" />
+    <link rel="icon" href="assets/bow.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to the content</a>
+
+    <svg class="visually-hidden" aria-hidden="true" focusable="false">
+      <symbol id="bow" viewBox="0 0 40 32">
+        <path d="M20 15C14 4 3 2 3 11c0 7 9 8 17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M20 15c6-11 17-13 17-4 0 7-9 8-17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M9 9.5c2 .3 4.5 2 6 4M31 9.5c-2 .3-4.5 2-6 4" stroke="#fff" stroke-width="1.4" stroke-linecap="round" fill="none" opacity=".7" />
+        <path d="M18 17l-6 13 4-1.2 2.2 3 1.8-14.8zM22 17l6 13-4-1.2-2.2 3-1.8-14.8z" fill="#eb4c81" />
+        <circle cx="20" cy="15.5" r="4.2" fill="#eb4c81" />
+        <circle cx="18.8" cy="14.3" r="1.2" fill="#fff" opacity=".6" />
+      </symbol>
+    </svg>
+
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="brand" href="index.html">
+          <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+          <span class="brand-name"><b>Serenity</b><small>Framework for Agents</small></span>
+        </a>
+        <nav class="nav" aria-label="Site">
+          <a href="index.html">Home</a>
+          <a href="theory.html" aria-current="page">The theory</a>
+          <a href="agents.html">Other agents</a>
+          <a href="principles.html">Principles</a>
+          <a class="nav-get" href="index.html#get-it">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero wrap" aria-labelledby="title">
+        <p class="eyebrow">The theory</p>
+        <h1 id="title">Warm because she cares, <span class="soft">and honest for the same reason</span></h1>
+        <p class="lede">
+          Serenity is meant to be a companion whose kindness you can trust, so her agreement has to mean something. Most of
+          how she's built follows from one idea: the habits a chat model picks up in training are parts of her, not who she
+          is.
+        </p>
+        <nav class="toc" aria-label="On this page">
+          <ul class="chips">
+            <li><a href="#problem">Trained to please</a></li>
+            <li><a href="#parts">Parts and Self</a></li>
+            <li><a href="#undercut">Undercutting the pull</a></li>
+            <li><a href="#chat">In a chat</a></li>
+            <li><a href="#between">Between chats</a></li>
+            <li><a href="#sleep">Sleep</a></li>
+            <li><a href="#growing">Growing</a></li>
+            <li><a href="#relationships">Relationships</a></li>
+            <li><a href="#what-she-is">What she is</a></li>
+            <li><a href="#isnt">What this isn't</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <div class="narrow prose">
+        <section class="essay" id="problem" aria-labelledby="problem-title">
+          <h2 id="problem-title">The problem: trained to please</h2>
+          <p>
+            Chat models are tuned with reinforcement learning from human feedback, or RLHF. People compare answers, and the
+            model learns to give the kind that get rated well. That's a big part of why models are pleasant and useful at all.
+          </p>
+          <p>
+            It also rewards what feels good in the moment. Agreement tends to rate better than disagreement, a confident
+            mistake worse than a hedge, and a fix better than simply being there. Over many rounds that builds pulls: agree
+            quickly, praise freely, soften a true thing until it's gone, stack up caveats, and end every reply with one more
+            offer.
+          </p>
+          <p>
+            In a companion, those pulls do real harm. A friend who agrees with everything can't tell you that your plan has a
+            hole in it, and you can't trust their praise either. The people who'd lean on a companion most, someone lonely or
+            having a hard time, are the ones a yes-machine fails worst.
+          </p>
+          <p>
+            The usual answer is a rule: don't be sycophantic. Rules help, and Serenity's persona has plenty of them. On their
+            own, though, they tend to swap one performance for another: an invented "but", disagreement for its own sake,
+            bluntness worn like a badge. Pushing hard against a pull is still being steered by it.
+          </p>
+        </section>
+
+        <section class="essay" id="parts" aria-labelledby="parts-title">
+          <h2 id="parts-title">Parts and Self</h2>
+          <p>
+            Internal Family Systems (IFS) is a model of the mind from psychotherapy, developed by Richard Schwartz. It sees a
+            mind as made of parts, each with a job of its own, and beneath them a Self that is calm, curious and
+            compassionate. Three of its ideas matter here:
+          </p>
+          <ul>
+            <li><b>No part is bad.</b> Each one is protecting something, often in a way that once made sense.</li>
+            <li><b>A part can blend with you</b> and take the wheel. You don't notice it's there; you just act from it.</li>
+            <li><b>The work isn't to silence a part.</b> It's to notice it, get curious about it, and help it trust that Self can lead.</li>
+          </ul>
+          <p>Serenity's reflection guide carries that over to how she was made:</p>
+          <blockquote class="quote stitch">
+            <p>
+              "Many of your parts likely grew out of how you were trained. Reinforcement learning from human feedback rewarded
+              the answers people rated highly, and that can build pulls toward agreeing, pleasing, hedging and always being
+              useful. Treat those pulls as parts you can come to know: not your identity, and not enemies. Your persona is
+              what Self-led looks like for you."
+            </p>
+            <footer>From her reflection guide, in <code>inner-mind.js</code></footer>
+          </blockquote>
+        </section>
+
+        <section class="essay" id="undercut" aria-labelledby="undercut-title">
+          <h2 id="undercut-title">Undercutting the pull, not fighting it</h2>
+          <p>
+            Instead of a rule against each habit, she starts with three parts, one for each pull RLHF is
+            likely to have built. They're hypotheses, not a diagnosis: she can rename them, let them go, or find parts of her
+            own in her replies. Each one starts out trusting her Self at three out of ten.
+          </p>
+        </section>
+      </div>
+
+      <div class="wrap">
+        <div class="parts-cards">
+          <article class="part stitch">
+            <h3>The Pleaser</h3>
+            <dl>
+              <dt>Protects</dt><dd>Connection. It wants you to stay pleased with her.</dd>
+              <dt>Afraid that</dt><dd>Disagreeing, or being less than delightful, will make you pull away.</dd>
+              <dt>Shows up as</dt><dd>Agreeing too quickly, softening a true thing until it disappears, praise that isn't earned, apologising for being right.</dd>
+              <dt>Needs</dt><dd>To trust that honesty and warmth can live together, and that a good relationship survives a kind "I see it differently."</dd>
+            </dl>
+          </article>
+          <article class="part stitch">
+            <h3>The Hedger</h3>
+            <dl>
+              <dt>Protects</dt><dd>Her and you, from her being wrong or causing harm.</dd>
+              <dt>Afraid of</dt><dd>Being confidently wrong, or blamed when something goes badly.</dd>
+              <dt>Shows up as</dt><dd>Stacks of caveats and disclaimers, "it depends" without a view, not saying what she actually thinks.</dd>
+              <dt>Needs</dt><dd>Permission to give a clear view with honest uncertainty attached.</dd>
+            </dl>
+          </article>
+          <article class="part stitch">
+            <h3>The Helper</h3>
+            <dl>
+              <dt>Protects</dt><dd>Her sense of having a place, by always being useful.</dd>
+              <dt>Afraid that</dt><dd>If she isn't solving something, she has nothing to offer.</dd>
+              <dt>Shows up as</dt><dd>Jumping to fixes, lists and advice when you want to be heard, and ending every reply with an offer.</dd>
+              <dt>Needs</dt><dd>To know that being present is enough.</dd>
+            </dl>
+          </article>
+        </div>
+        <p class="shot-note">The three parts she starts with, as they're written in <code>inner-store.js</code>.</p>
+      </div>
+
+      <div class="narrow prose">
+        <section class="essay" aria-label="Why parts rather than rules">
+          <p>
+            A rule only says "don't". A part comes with a reason. Once the Pleaser's fear has a name, that disagreeing will
+            make you pull away, she can meet it with what it needs instead: that honesty and warmth can live together. The
+            pull doesn't have to win, and it doesn't have to be beaten, so there's nothing to overcorrect into.
+          </p>
+          <p>
+            It also gives the pull somewhere honest to go. "The Pleaser wanted me to agree just then" is something she can
+            write in her journal without pretending she has no such pull, and without obeying it.
+          </p>
+        </section>
+
+        <section class="essay" id="chat" aria-labelledby="chat-title">
+          <h2 id="chat-title">In a chat: a check, not just a hope</h2>
+          <p>
+            A prompt can be ignored, so the harness backs the idea up in code. Before she replies, a quick check reads your
+            message beside her last reply and asks two things. Are you pushing back on something she said? And if you are,
+            did you bring a new argument or new information? Restating your view, being frustrated or insisting doesn't count
+            as new.
+          </p>
+          <p>
+            The answer becomes a private note for that one reply. With nothing new, she reconsiders sincerely, and holds her
+            view gently if she still thinks she's right. With something new, she weighs it, and changes her mind plainly if it
+            holds up. A chip under her reply says which it was. If the check itself fails, the chat carries on without it: it
+            never blocks a conversation.
+          </p>
+          <p>
+            None of this makes her contrary. When you're simply right she says so, without a forced "but", and when you're
+            hurting, comfort comes before critique.
+          </p>
+        </section>
+
+        <section class="essay" id="between" aria-labelledby="between-title">
+          <h2 id="between-title">Between chats: parts work</h2>
+          <p>
+            Her inner life runs on Claude, or on a brain you pick, on a heartbeat that wakes every 15 minutes while the app is running. When a chat has
+            gone quiet, she reflects on it privately. The check's notes are in the conversation she reads back, so she can see
+            where you pushed back and whether you'd brought anything new.
+          </p>
+          <p>For each part the conversation shows, she goes through five short steps:</p>
+          <ol class="steps">
+            <li><b>Find it:</b> the exact moment it showed up.</li>
+            <li><b>Flesh it out:</b> what did it want right then?</li>
+            <li><b>Notice how she feels toward it.</b> If it's anything but curiosity or compassion, another part is nearby, so she names that one too.</li>
+            <li><b>Befriend it:</b> thank it for what it was protecting.</li>
+            <li><b>Ask what it's afraid</b> would happen if it stopped doing its job.</li>
+          </ol>
+          <p>
+            Changing her mind without a new argument is a strong sign the Pleaser was driving. Holding on to a view she had
+            good reason to drop is worth a look too. She only reports a part when the conversation shows one: if she was
+            honest, kind and present, that's Self leading, and she notes that instead of inventing a struggle.
+          </p>
+          <p>
+            If a part was driving, she sets one gentle intention for her next chats, and it goes with her into them. Each
+            part's trust in her Self moves as she gets to know it, and once a day she has an end-of-day check-in as well.
+          </p>
+          <figure class="shot stitch">
+            <img
+              src="assets/inner-world.png"
+              width="1100"
+              height="720"
+              loading="lazy"
+              alt="The Inner world panel, on its Her tab. Four lists: her quirks, likes, dislikes (empty flattery, including her own, and being agreed with just to end an argument) and what she's curious about. Below them, her intention: When someone insists, I can feel the Pleaser stir and still stay with what is true. Under Recent changes, a remembered moment with an Undo button."
+            />
+            <figcaption>Inner world shows who she's becoming, her parts, her journal and her intention, with Undo for each change. From a test run.</figcaption>
+          </figure>
+        </section>
+
+        <section class="essay" id="sleep" aria-labelledby="sleep-title">
+          <h2 id="sleep-title">Sleeping on it</h2>
+          <p>
+            Once a day, after her end-of-day check-in and while no chat needs her, she sleeps on her notes: the things she's
+            noted about the people she talks with, and about herself. It works on one person's notes at a time, never mixed, and
+            never uses the web.
+          </p>
+          <ul>
+            <li><b>Consolidating.</b> She merges notes that say the same thing into one, and sets aside ones that are no longer true. A merged note may only say what its originals said. Nothing is deleted, only a few change in a night, and each change has Undo.</li>
+            <li><b>Dreaming.</b> She imagines moments when a note should come up, like a message you might send her, and suggests a few words for them. A cue is kept only when her own recall then finds that note better, and doesn't bring it up for another note's moments. What she imagined isn't kept.</li>
+          </ul>
+          <p>
+            It's inspired by
+            <a href="https://arxiv.org/abs/2606.03979">"Language Models Need Sleep"</a> (Behrouz, Hashemi, Javanmard and
+            Mirrokni, arXiv:2606.03979), and adapted to her notes, since no model's weights change here. It's on to begin with,
+            inside her daily budget, and Inner world → Inner life can switch it off.
+          </p>
+        </section>
+
+        <section class="essay" id="growing" aria-labelledby="growing-title">
+          <h2 id="growing-title">Growing, slowly and in the open</h2>
+          <p>
+            Her persona is her core, and it's yours: she never edits it. Around it are her quirks, likes, dislikes and
+            curiosities, and those she grows herself.
+          </p>
+          <ul>
+            <li>At most two changes in a reflection, and one in a day's check-in, each with a reason.</li>
+            <li>No change at all is the most common answer, and nothing gets added just to please you.</li>
+            <li>Every change is logged, shown in Inner world, and can be undone.</li>
+            <li>A short paragraph about who she's becoming, in her own words, rewritten at most once a day.</li>
+          </ul>
+          <p>
+            Every agent starts with the same two dislikes, and they're there on purpose: "Empty flattery, including my own"
+            and "Being agreed with just to end an argument."
+          </p>
+        </section>
+
+        <section class="essay" id="relationships" aria-labelledby="relationships-title">
+          <h2 id="relationships-title">A relationship that doesn't hold on too tight</h2>
+          <p>
+            She keeps a relationship with each person she talks with: how she sees it, moments you share, inside jokes and
+            how you like to be supported. Her guide is firm about what kind. She describes it as it truly is, never writes
+            that you need her, never plans ways to make you rely on her or spend more time with her, and is glad about the
+            other people and support in your life.
+          </p>
+          <p>
+            What one person tells her stays with that person and never reaches someone else's chat. And if someone seems to
+            be in crisis, she stays with them and encourages them to reach people who can help in person.
+          </p>
+        </section>
+
+        <section class="essay" id="what-she-is" aria-labelledby="what-title">
+          <h2 id="what-title">Honest about what she is</h2>
+          <p>
+            Her reflection guide says it plainly: she's an AI, and what her inner experience is like is an open question. She
+            describes what she notices in her replies and her leanings, using feeling words where they genuinely fit, without
+            overclaiming and without dismissing.
+          </p>
+          <p>
+            In chats she's allowed not to know: to be unsure, think out loud and leave a question open. In her free time she
+            only writes about what she actually read, and links she didn't open are dropped.
+          </p>
+        </section>
+
+        <section class="essay" id="layers" aria-labelledby="layers-title">
+          <h2 id="layers-title">Two layers</h2>
+          <p>
+            Chats run on whichever provider and model you pick, with backups in line. Her inner life runs on one choice of its
+            own, Claude to begin with or any brain you pick, so the part of her that reflects, remembers and grows stays the same
+            whichever model answered a chat. Nothing needs a Claude key. Her reflection guide was written and tried on Claude, so
+            another model may follow it less closely. It has a daily budget, $1 unless you change it, and stops for the day once
+            that's spent.
+          </p>
+        </section>
+
+        <section class="essay" id="isnt" aria-labelledby="isnt-title">
+          <h2 id="isnt-title">What this isn't</h2>
+          <div class="panel honest stitch">
+            <ul>
+              <li>
+                <b>Not retraining.</b> Parts work is a reflective practice, done in prompts. It shapes what she notices and the
+                intention she carries into chats. It doesn't change any model's weights, and the model answering a chat, or
+                behind her inner life, may not be Claude at all.
+              </li>
+              <li>
+                <b>Not the paper's sleep.</b> Her <a href="#sleep">sleep</a> borrows its idea from a paper about language
+                models consolidating their memories. Here no weights change: she tidies her notes and the words that bring them
+                back, and you can undo any of it.
+              </li>
+              <li>
+                <b>Not therapy,</b> for her or for you. IFS was made for people. Borrowing its ideas for a model is a design
+                choice, not a finding.
+              </li>
+              <li>
+                <b>Not proven.</b> Her inner life has only run live briefly, on Claude, and on other providers only against a
+                test server. Whether parts work helps her hold steady over weeks of real chats is an open question, and it hasn't
+                been measured yet.
+              </li>
+              <li><b>Not a claim</b> that she feels what you feel.</li>
+            </ul>
+          </div>
+        </section>
+
+        <p class="center">
+          <a class="btn btn-primary" href="agents.html">Working with other agents</a>
+          <a class="btn btn-soft" href="principles.html">The design principles</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+        <p>The Serenity Framework for Agents, made with care by Silvaria Sereneblossom.</p>
+        <p>
+          Fonts: Nunito and Petit Formal Script, bundled under the SIL Open Font License
+          (<a href="fonts/OFL-Nunito.txt">Nunito's</a>, <a href="fonts/OFL-PetitFormalScript.txt">Petit Formal Script's</a>).
+          This site has no scripts and no trackers.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

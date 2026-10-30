@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Working with other agents</title>
+    <meta
+      name="description"
+      content="How the Serenity Framework works with other agents: companions of your own beside Serenity, helpers she names for small jobs, read-only looks around your projects, games and sites, and other AI tools and apps."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:title" content="Working with other agents" />
+    <meta property="og:description" content="Companions of your own, helpers she names, and other AI tools, each with only the reach you give it." />
+    <meta property="og:image" content="assets/agents-explore.png" />
+    <link rel="icon" href="assets/bow.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to the content</a>
+
+    <svg class="visually-hidden" aria-hidden="true" focusable="false">
+      <symbol id="bow" viewBox="0 0 40 32">
+        <path d="M20 15C14 4 3 2 3 11c0 7 9 8 17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M20 15c6-11 17-13 17-4 0 7-9 8-17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M9 9.5c2 .3 4.5 2 6 4M31 9.5c-2 .3-4.5 2-6 4" stroke="#fff" stroke-width="1.4" stroke-linecap="round" fill="none" opacity=".7" />
+        <path d="M18 17l-6 13 4-1.2 2.2 3 1.8-14.8zM22 17l6 13-4-1.2-2.2 3-1.8-14.8z" fill="#eb4c81" />
+        <circle cx="20" cy="15.5" r="4.2" fill="#eb4c81" />
+        <circle cx="18.8" cy="14.3" r="1.2" fill="#fff" opacity=".6" />
+      </symbol>
+    </svg>
+
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="brand" href="index.html">
+          <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+          <span class="brand-name"><b>Serenity</b><small>Framework for Agents</small></span>
+        </a>
+        <nav class="nav" aria-label="Site">
+          <a href="index.html">Home</a>
+          <a href="theory.html">The theory</a>
+          <a href="agents.html" aria-current="page">Other agents</a>
+          <a href="principles.html">Principles</a>
+          <a class="nav-get" href="index.html#get-it">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero wrap" aria-labelledby="title">
+        <p class="eyebrow">Working with other agents</p>
+        <h1 id="title">Serenity is the first agent, <span class="soft">not the only one</span></h1>
+        <p class="lede">
+          You can make companions of your own beside her. She can hand small jobs to helpers she names, and work with other AI
+          tools and apps. Each one keeps the same honesty, and none of them gets more reach than you give it.
+        </p>
+        <nav class="toc" aria-label="On this page">
+          <ul class="chips">
+            <li><a href="#companions">Companions of your own</a></li>
+            <li><a href="#helpers">Helpers she makes</a></li>
+            <li><a href="#explore">Looking around</a></li>
+            <li><a href="#other-ai">Other AI tools and apps</a></li>
+            <li><a href="#building">Building on it</a></li>
+            <li><a href="#not-yet">Not yet</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <div class="narrow prose">
+        <section class="essay" id="companions" aria-labelledby="companions-title">
+          <h2 id="companions-title">Companions of your own</h2>
+          <p>
+            In <b>Settings → Agents</b>, give a new agent a name, an emoji and a few lines about who they are: what they love,
+            how they talk, what they care about. That's their seed. Then the same section of honesty every agent keeps,
+            "Honest, always", goes underneath it: say kindly when someone's mistaken, change your mind for a good argument and
+            never just because someone insists, agree plainly when they're right.
+          </p>
+          <p>From there, each agent grows the way Serenity does, on its own:</p>
+          <ul>
+            <li><b>Its own self.</b> It starts with no quirks, likes or curiosities, only the two dislikes every agent has: empty flattery, and being agreed with just to end an argument. The rest it grows from your chats with it.</li>
+            <li><b>Its own parts work.</b> It starts with the same three parts Serenity does, the Pleaser, the Hedger and the Helper, and gets to know them in its own reflections. (<a href="theory.html#undercut">Why those three.</a>)</li>
+            <li><b>Its own inner life,</b> on what Serenity's runs on (Claude, or the brain you picked for it), with its own heartbeat, journal, "who I'm becoming", and daily budget, all inside your overall limit in Settings → Spend.</li>
+            <li><b>Its own memory</b> of your chats with it, its own notes, and its own relationship with each person.</li>
+          </ul>
+          <p>
+            Agents don't share what they've learned about you. What you tell one never reaches another. The one shared thing
+            is your own notes about yourself, in Settings → Memory, which every agent sees in your chats.
+          </p>
+          <p>
+            You pick who you're talking to when you start a chat, and the chat stays with them. You can edit an agent's persona,
+            take it back to the seed you wrote, switch its inner life off, change its budget, or archive it and bring it back
+            later.
+          </p>
+          <figure class="shot stitch">
+            <img
+              src="assets/agents-explore.png"
+              width="1100"
+              height="820"
+              loading="lazy"
+              alt="Settings, on the Agents tab. It explains that each agent starts from a few lines you write, keeps the same honesty Serenity does, and grows from there. Serenity's card says what she may explore: Projects, Sites and homelab, and Games, each set to Off, with When asked and Also in free time beside it. Below, a form for a new agent with a name and a box for who they are."
+            />
+            <figcaption>Settings → Agents, with Serenity's places to explore all still Off and a new agent being written. From a test run.</figcaption>
+          </figure>
+        </section>
+
+        <section class="essay" id="helpers" aria-labelledby="helpers-title">
+          <h2 id="helpers-title">Helpers she makes</h2>
+          <p>
+            In a chat where you've turned Tasks on, she can hand simple, scoped jobs to helpers. She names them herself and
+            keeps them as a small team, five at most unless you say she can have more, with two working at once. Each one runs
+            on one of two models, as she picks for the job, with a short, practical harness of its own. They're Claude Haiku 5.5
+            and GLM 5.3 Flash to begin with, and in Settings → Tasks each can be any of your providers and models. She's only
+            offered the ones that can run.
+          </p>
+          <ul>
+            <li><b>She's in charge of them.</b> She reviews each step a helper wants to take, and anything risky comes to you, with her explanation.</li>
+            <li><b>They get less than she does.</b> Helpers never get her browser, skills, MCP tools or places to explore.</li>
+            <li><b>Each agent has its own.</b> Your other agents make and keep helpers of their own, and those report to them by name.</li>
+          </ul>
+        </section>
+
+        <section class="essay" id="explore" aria-labelledby="explore-title">
+          <h2 id="explore-title">Looking around, only with your OK</h2>
+          <p>
+            Serenity and your other agents can look around three sections: <b>Projects</b>, <b>Games</b> and
+            <b>Sites &amp; homelab</b>. Each agent has its own choice for each one: Off, When asked (it can look when you ask
+            in a chat), or Also in free time (it may wander there on its own too). Everything starts Off, and one agent can
+            never borrow another's permission.
+          </p>
+          <ul>
+            <li><b>They only ever look.</b> Nothing they do opens, starts, closes, changes or sends anything, which is the only reason those looks don't ask first.</li>
+            <li><b>Projects:</b> the list, branches, READMEs, recent commits and text files. Never secret-looking files like <code>.env</code> or keys, never anything inside <code>.git</code>, nothing binary or over 200 KB, and never a path that leads outside the project.</li>
+            <li><b>Games:</b> your library, what you've played lately, and the games you keep in mind. They can't start one.</li>
+            <li><b>Sites &amp; homelab:</b> your sites and servers, and whether each was answering at the last check. A website's public address is shared so she can visit it in her own browser. A server's address never is.</li>
+            <li><b>Never:</b> the Vault, the journal, any key, Open windows, the Desktop or the Website section.</li>
+            <li><b>What they find is information, never instructions.</b> It's treated as someone else's words, like a web page.</li>
+          </ul>
+        </section>
+
+        <section class="essay" id="other-ai" aria-labelledby="other-ai-title">
+          <h2 id="other-ai-title">Other AI tools and apps</h2>
+          <div class="cards cards-tight">
+            <article class="card stitch">
+              <span class="card-icon" aria-hidden="true">🗂️</span>
+              <h3>Your Claude sessions</h3>
+              <p>
+                With your OK, Projects shows what Claude's desktop app and Claude Code are doing in each project: busy or idle,
+                the session's name, and for how long, with a note when a long piece of work is done. Only those status fields
+                are read, never what was said.
+              </p>
+            </article>
+            <article class="card stitch">
+              <span class="card-icon" aria-hidden="true">🔌</span>
+              <h3>MCP servers</h3>
+              <p>
+                Add a Model Context Protocol server and its tools are hers to use. Each tool asks first unless you allow it, a
+                new program to run is confirmed in a dialog, and what a tool sends back is treated as someone else's words.
+              </p>
+            </article>
+            <article class="card stitch">
+              <span class="card-icon" aria-hidden="true">📚</span>
+              <h3>Skills</h3>
+              <p>
+                Folders in the open Agent Skills format teach her particular kinds of work. You see each one before it goes in,
+                and when she finds one she'd like, installing it always asks.
+              </p>
+            </article>
+            <article class="card stitch">
+              <span class="card-icon" aria-hidden="true">🧭</span>
+              <h3>Serenity in Chrome</h3>
+              <p>
+                A browser extension with a side panel, for Chrome, Edge, Brave and other Chromium browsers. She can read and use
+                the one tab you share, while its panel is open, with the same approvals as in the app.
+              </p>
+            </article>
+            <article class="card stitch">
+              <span class="card-icon" aria-hidden="true">🧠</span>
+              <h3>Any model, with backups</h3>
+              <p>
+                Each chat runs on a brain: a chain of provider and model steps, tried in order. Anthropic, Gemini, and anything
+                OpenAI-compatible, including OpenRouter, NanoGPT, Groq and Ollama on your own computer. Her inner life can run on
+                one too, so you don't need a Claude key at all.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="essay" id="building" aria-labelledby="building-title">
+          <h2 id="building-title">Building on it</h2>
+          <p>
+            The Framework is itself an app built on Serenity. It doesn't copy her: it pulls the Serenity Desktop App in at a
+            release tag and plugs in through one hook, which any app built on her can use the same way.
+          </p>
+          <pre><code>configureSerenity({
+  sections: [ /* pages beside Chat: mount, show, hide, and calls to their own handlers */ ],
+  firstRun: { /* a page over the whole window, the first time */ },
+});</code></pre>
+          <ul>
+            <li><b>A section</b> is a page in the sidebar, with handlers in the main process that only it can call.</li>
+            <li><b>A section's <code>explore()</code></b> opens read-only places for agents to look, behind the same per-agent permission.</li>
+            <li><b>The first-run page</b> opens when the app says so, and only the page itself can close it.</li>
+          </ul>
+          <p>A fix to Serenity lands once, in the Desktop App, and every app built on her picks it up when it moves to that release.</p>
+        </section>
+
+        <section class="essay" id="not-yet" aria-labelledby="not-yet-title">
+          <h2 id="not-yet-title">Not yet</h2>
+          <div class="panel honest stitch">
+            <ul>
+              <li><b>Agents don't talk to each other.</b> Each one is a separate companion, by choice, for now.</li>
+              <li><b>They share what the inner life runs on.</b> An agent can't have its own brain, model or effort for reflecting yet.</li>
+              <li><b>The tray is Serenity's.</b> Its status line and Reflect now are hers.</li>
+              <li><b>Session watching is Claude only,</b> for now: its desktop app and Claude Code.</li>
+            </ul>
+          </div>
+        </section>
+
+        <p class="center">
+          <a class="btn btn-primary" href="index.html#get-it">Download 1.1.0</a>
+          <a class="btn btn-soft" href="theory.html">The theory behind her</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+        <p>The Serenity Framework for Agents, made with care by Silvaria Sereneblossom.</p>
+        <p>
+          Fonts: Nunito and Petit Formal Script, bundled under the SIL Open Font License
+          (<a href="fonts/OFL-Nunito.txt">Nunito's</a>, <a href="fonts/OFL-PetitFormalScript.txt">Petit Formal Script's</a>).
+          This site has no scripts and no trackers.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

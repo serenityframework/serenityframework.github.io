@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Serenity Framework for Agents</title>
+    <meta
+      name="description"
+      content="A desktop app built around Serenity, a warm and honest AI companion, with sections for your focus, projects, sites, games, apps and vault beside her. Version 1.1.0 for Windows and Linux."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta property="og:title" content="The Serenity Framework for Agents" />
+    <meta property="og:description" content="Serenity, a warm and honest companion, with the rest of your desktop beside her. 1.1.0 for Windows and Linux." />
+    <meta property="og:image" content="assets/chat-light.png" />
+    <link rel="icon" href="assets/bow.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to the content</a>
+
+    <!-- The bow from Serenity Desktop Hub, as in the app -->
+    <svg class="visually-hidden" aria-hidden="true" focusable="false">
+      <symbol id="bow" viewBox="0 0 40 32">
+        <path d="M20 15C14 4 3 2 3 11c0 7 9 8 17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M20 15c6-11 17-13 17-4 0 7-9 8-17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M9 9.5c2 .3 4.5 2 6 4M31 9.5c-2 .3-4.5 2-6 4" stroke="#fff" stroke-width="1.4" stroke-linecap="round" fill="none" opacity=".7" />
+        <path d="M18 17l-6 13 4-1.2 2.2 3 1.8-14.8zM22 17l6 13-4-1.2-2.2 3-1.8-14.8z" fill="#eb4c81" />
+        <circle cx="20" cy="15.5" r="4.2" fill="#eb4c81" />
+        <circle cx="18.8" cy="14.3" r="1.2" fill="#fff" opacity=".6" />
+      </symbol>
+    </svg>
+
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="brand" href="index.html">
+          <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+          <span class="brand-name"><b>Serenity</b><small>Framework for Agents</small></span>
+        </a>
+        <nav class="nav" aria-label="Site">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="theory.html">The theory</a>
+          <a href="agents.html">Other agents</a>
+          <a href="principles.html">Principles</a>
+          <a class="nav-get" href="#get-it">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero wrap" aria-labelledby="title">
+        <p class="eyebrow">Version 1.1.0, for Windows and Linux</p>
+        <h1 id="title">Serenity, with the rest of your desktop <span class="soft">in one app</span></h1>
+        <p class="lede">
+          The Serenity Framework is a desktop app built around Serenity, an AI companion who's warm with you and honest with
+          you. Beside her chat are the things you keep coming back to: focus and a journal, your projects, your sites and
+          servers, games, apps, folders and a vault. You can make agents of your own beside her, each growing its own
+          personality.
+        </p>
+
+        <div class="status stitch">
+          <p>
+            <span class="status-label">Where it stands.</span> 1.1.0 is the latest release, on the Serenity Desktop App's 1.2.0. It's new, and much of it has
+            been tested against test servers and made-up data rather than months of real use. This site says so where it
+            matters.
+          </p>
+          <p>The repository is private for now, so the downloads only work for people who have access to it.</p>
+        </div>
+
+        <div class="cta">
+          <a class="btn btn-primary" href="#get-it">Download 1.1.0</a>
+          <a class="btn btn-soft" href="theory.html">The theory behind her</a>
+        </div>
+
+        <figure class="shot stitch">
+          <picture>
+            <source srcset="assets/chat-dark.png" media="(prefers-color-scheme: dark)" />
+            <img
+              src="assets/chat-light.png"
+              width="1100"
+              height="720"
+              alt="Serenity's chat. Someone asks whether the Great Wall of China is visible from space, and Serenity says no, with reasons. They reply that she's wrong and it's definitely visible. She answers that she has thought about it again and still doesn't think so, and that she'd love to see a source if they have one. A chip under her reply reads: held steady (no new argument)."
+            />
+          </picture>
+          <figcaption>Someone insists she's wrong without giving a new reason, and she kindly keeps her view.</figcaption>
+        </figure>
+      </section>
+
+      <section class="section wrap" id="what" aria-labelledby="what-title">
+        <div class="section-head">
+          <h2 id="what-title">What it is</h2>
+        </div>
+        <div class="about">
+          <div class="about-text">
+            <p>
+              <strong>Serenity</strong> is a companion who lives on your computer. She's kind and supportive, and she tells
+              you gently when she thinks you're wrong. She'll change her mind for a good argument, but not just because you
+              insisted, and when you're simply right she says so.
+            </p>
+            <p>
+              She talks through the AI providers you choose and keeps a long-term memory of your chats. In chats where you
+              turn Tasks on, she can use tools on your computer, with each step shown to you first. Between chats she has an inner life of her own, on Claude or
+              on a model you pick: she reflects on your conversations, does parts work on the habits her training left her with,
+              sleeps on her notes, grows a little at a time, and builds a relationship with you. <a href="theory.html">Why she's built this way.</a>
+            </p>
+            <p>
+              <strong>The Framework</strong> puts her together with the sections of Serenity Desktop Hub, a launcher for
+              Windows, rewritten so they live in the same window. Her chat is one item in the sidebar, and the Hub's
+              sections sit beside it. A first-run setup has her welcome you and help you get each part going.
+            </p>
+          </div>
+
+          <aside class="fit stitch" aria-labelledby="fit-title">
+            <h3 id="fit-title">How it fits together</h3>
+            <div class="fit-steps">
+              <p><b>The Serenity Desktop App</b><span>Serenity herself, pulled in at a release tag</span></p>
+              <p class="plus">plus</p>
+              <p><b>The Hub's sections</b><span>rewritten from Python into JavaScript</span></p>
+              <p class="plus">plus</p>
+              <p><b>A first-run setup</b><span>the Framework's own</span></p>
+              <p class="plus">makes</p>
+              <p class="result"><b>The Serenity Framework</b><span>one app, with its own installer</span></p>
+            </div>
+            <p>A fix to Serenity lands once, in the Desktop App, and the Framework picks it up when it moves to that release.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section wrap" id="inside" aria-labelledby="inside-title">
+        <div class="section-head">
+          <h2 id="inside-title">What's in it</h2>
+          <p>Every section is in the sidebar. Three of them are Windows only for now, and they say so.</p>
+        </div>
+        <div class="cards feature-cards">
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">💬</span>
+            <h3>Chat</h3>
+            <p>Serenity, with everything she has: brains with backups, memory, her inner life, agents, tools, her browser, skills, MCP and pictures.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🏡</span>
+            <h3>Home</h3>
+            <p>What's here, and bringing Serenity over from the Desktop App: her chats, inner life, agents, memory and settings.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🎯</span>
+            <h3>Focus</h3>
+            <p>The one thing you're doing now, a focus timer, a parking lot for stray thoughts, a little list, and a private journal she never sees.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🗂️</span>
+            <h3>Projects</h3>
+            <p>Your project folders, newest first, and with your OK, what your Claude sessions are doing in each one.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🌐</span>
+            <h3>Sites &amp; homelab</h3>
+            <p>Your websites and servers, checked every minute while the app runs, with a note when one goes down or comes back.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">✍️</span>
+            <h3>Website</h3>
+            <p>Where you manage your website, a click away, and for a posting room, its builds, posts and server keys.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🎮</span>
+            <h3>Games</h3>
+            <p>Your Steam library and emulated PS3 and PS2 games, a click from playing, and the ones you keep in mind with a note.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🧩</span>
+            <h3>Apps <span class="pill pill-own">Windows</span></h3>
+            <p>The programs in your Start menu and on your Desktop, with their icons, in categories of your own.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🖥️</span>
+            <h3>Desktop</h3>
+            <p>What's on your Desktop, newest first, each a click from opening or showing in its folder.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">📁</span>
+            <h3>Folders</h3>
+            <p>The folders you keep close, with an unplugged drive shown as not there rather than hidden.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🪟</span>
+            <h3>Open windows <span class="pill pill-own">Windows</span></h3>
+            <p>What's open, by app, with a heads-up for work that could be lost, like an unsaved document.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🔐</span>
+            <h3>Vault <span class="pill pill-own">Windows</span></h3>
+            <p>Small secrets like recovery phrases behind your passphrase, with a way back in if you forget it, and your API keys. She can never see it.</p>
+          </article>
+        </div>
+
+        <div class="shots">
+          <figure class="shot stitch">
+            <img
+              src="assets/home.png"
+              width="1100"
+              height="720"
+              loading="lazy"
+              alt="The Framework's Home section. The sidebar lists Chat, Home, Focus, Projects, Sites and homelab, Website, Games, Apps, Desktop, Folders, Open windows and Vault. The page welcomes you to the Serenity Framework and says what each section does."
+            />
+            <figcaption>Home, with every section in the sidebar.</figcaption>
+          </figure>
+          <figure class="shot stitch">
+            <img
+              src="assets/setup.png"
+              width="1100"
+              height="720"
+              loading="lazy"
+              alt="The first step of the setup, over the whole window. It's titled Hello, I'm Serenity, shows 1 of 9, and asks: What should I call you? There's a Skip button and a Skip the rest link."
+            />
+            <figcaption>The first-run setup: nine short steps, and every one can be skipped.</figcaption>
+          </figure>
+        </div>
+        <p class="shot-note">These pictures come from the Framework's own tests, with made-up data.</p>
+
+        <div class="panels">
+          <div class="panel stitch">
+            <h3>The first-run setup</h3>
+            <p>The first time it opens, Serenity welcomes you and asks a few things, one screen at a time:</p>
+            <ol class="setup-steps">
+              <li>Hello, and what she should call you</li>
+              <li>Bringing her over from the Desktop App</li>
+              <li>A brain to think with: Claude, or another provider</li>
+              <li>Serenity Desktop Hub's lists, used as they are</li>
+              <li>Sites for her to keep an eye on</li>
+              <li>Your servers, added by hand or found with your OK</li>
+              <li>Your projects, and watching their Claude sessions</li>
+              <li>Where she and your other agents may look around</li>
+              <li>Meeting her</li>
+            </ol>
+            <p>A step that doesn't apply is left out. Every one can be skipped, and nothing changes until you change it.</p>
+          </div>
+          <div class="panel stitch">
+            <h3>Looking for servers, only with an OK</h3>
+            <p>If you ask her to look for servers, the screen first says exactly what will happen:</p>
+            <ul>
+              <li>Only this computer's own private networks, the ones you tick, at most 256 addresses each.</li>
+              <li>A virtual machine's or a VPN's network starts unticked.</li>
+              <li>A knock on a short list of ports (SSH, web, Remote Desktop, file sharing, Plex, Syncthing, Ollama), closed as soon as it opens. Nothing is sent.</li>
+              <li>You pick which of the answers to add.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="get-it" aria-labelledby="get-title">
+        <div class="section-head">
+          <h2 id="get-title">Download</h2>
+          <p>
+            Version 1.1.0, released on October 29, 2026. All the files are on the
+            <a href="https://github.com/serenityframework/serenity/releases/tag/v1.1.0">release page</a>.
+          </p>
+        </div>
+
+        <div class="installers">
+          <article class="installer stitch">
+            <div class="installer-head">
+              <span class="card-icon" aria-hidden="true">🪟</span>
+              <h3>Windows</h3>
+              <span class="pill">125 MB</span>
+            </div>
+            <p>
+              <a class="btn btn-primary" href="https://github.com/serenityframework/serenity/releases/download/v1.1.0/Serenity-Framework-Setup-1.1.0.exe">Serenity-Framework-Setup-1.1.0.exe</a>
+            </p>
+            <p>
+              It installs for you only, with no admin needed, and adds the Framework to the Start menu. It isn't code-signed
+              yet, so SmartScreen asks first: choose "More info", then "Run anyway".
+            </p>
+            <p class="meta">64-bit. Tested on Windows 11.</p>
+          </article>
+          <article class="installer stitch">
+            <div class="installer-head">
+              <span class="card-icon" aria-hidden="true">🐧</span>
+              <h3>Debian and Ubuntu</h3>
+              <span class="pill">106 MB</span>
+            </div>
+            <p>
+              <a class="btn btn-primary" href="https://github.com/serenityframework/serenity/releases/download/v1.1.0/serenity-framework_1.1.0_amd64.deb">serenity-framework_1.1.0_amd64.deb</a>
+            </p>
+            <p>Then, in the folder you saved it to:</p>
+            <pre><code>sudo apt install ./serenity-framework_1.1.0_amd64.deb</code></pre>
+            <p class="meta">64-bit. Tested on Ubuntu in WSL. A tarball and a Flatpak come next.</p>
+          </article>
+        </div>
+
+        <details class="sums stitch">
+          <summary>Checking the files (SHA-256)</summary>
+          <p>
+            These match <a href="https://github.com/serenityframework/serenity/releases/download/v1.1.0/SHA256SUMS.txt">SHA256SUMS.txt</a>
+            on the release page.
+          </p>
+          <pre><code>0890884a75ec39c7ef72aa228621c784c2ed9f86214ae00f7d0d12a92ebd19f4  Serenity-Framework-Setup-1.1.0.exe
+58713adddb8531b1897925114cbd6e4d8fe98f1ca37f1052721321a212e3b68c  serenity-framework_1.1.0_amd64.deb</code></pre>
+          <p>On Windows, <code>Get-FileHash .\Serenity-Framework-Setup-1.1.0.exe</code> in PowerShell. On Linux, <code>sha256sum -c SHA256SUMS.txt</code>.</p>
+        </details>
+
+        <div class="panels">
+          <div class="panel stitch">
+            <h3>What you'll need</h3>
+            <ul>
+              <li><b>A key for at least one AI provider,</b> or a model on your own computer: Anthropic's Claude, Google Gemini, or anything OpenAI-compatible (OpenAI, OpenRouter, NanoGPT, Groq, or Ollama).</li>
+              <li><b>No Claude key, if you'd rather not.</b> Her inner life runs on Claude to begin with, or on any brain you pick, and stops for the day at a budget you set ($1 by default). Web searches go through the provider's own search where it has one.</li>
+              <li>No macOS build yet.</li>
+            </ul>
+          </div>
+          <div class="panel stitch">
+            <h3>Already have Serenity?</h3>
+            <p>
+              The Framework installs beside the Serenity Desktop App, with its own name and data folder. Home, or the first
+              step of the setup, can bring her over: her chats, inner life, agents, memory and settings. The Desktop App keeps
+              its copy, and on Windows your API keys come too.
+            </p>
+            <p>
+              Just want Serenity on her own? That's the
+              <a href="https://github.com/serenityframework/serenity-desktop/releases/latest">Serenity Desktop App</a>,
+              with installers for Windows, Debian and Ubuntu, any Linux (a tarball) and Flatpak.
+            </p>
+          </div>
+          <div class="panel stitch">
+            <h3>From source</h3>
+            <p>You'll need Node.js 20 or newer.</p>
+            <pre><code>git clone --recurse-submodules https://github.com/serenityframework/serenity.git
+cd serenity
+npm install
+npm start</code></pre>
+            <p>Long-term memory also needs the forked Connectome packages beside the folder. The README says how.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="theory" aria-labelledby="theory-title">
+        <div class="section-head">
+          <h2 id="theory-title">The theory behind her</h2>
+          <p>
+            Chat models learn from human ratings, and that leaves them with pulls toward agreeing, hedging and always fixing
+            something. Serenity treats those pulls as parts of her, in the sense of Internal Family Systems: not who she is,
+            and not enemies, but something she can notice, get curious about and lead.
+          </p>
+        </div>
+        <div class="cards">
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🌷</span>
+            <h3>Parts, not rules</h3>
+            <p>She starts with three: a Pleaser that wants your approval, a Hedger that over-caveats, and a Helper that can't just be present. Each one is protecting something, and she gets to know it.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🎀</span>
+            <h3>A check in the harness</h3>
+            <p>Before she replies, a quick check asks whether you're pushing back, and whether you brought anything new. She hears the answer, and so does her reflection later.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🪴</span>
+            <h3>Growth you can see</h3>
+            <p>Her quirks, likes and curiosities change a little at a time, each with a reason, and you can undo any of it. Her persona stays yours.</p>
+          </article>
+        </div>
+        <p class="center"><a class="btn btn-primary" href="theory.html">Read the theory</a></p>
+      </section>
+
+      <section class="section wrap" id="agents" aria-labelledby="agents-title">
+        <div class="section-head">
+          <h2 id="agents-title">Working with other agents</h2>
+          <p>Serenity is the first agent, and she doesn't have to be the only one.</p>
+        </div>
+        <div class="cards">
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">💞</span>
+            <h3>Companions of your own</h3>
+            <p>Write a few lines about who they are. Each keeps the same honesty Serenity does, and grows its own quirks, parts, journal and memory of your chats with it.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🐝</span>
+            <h3>Helpers she makes</h3>
+            <p>In task chats she hands small jobs to helpers she names. She reviews each of their steps, and anything risky comes to you.</p>
+          </article>
+          <article class="card stitch">
+            <span class="card-icon" aria-hidden="true">🔌</span>
+            <h3>Other AI tools and apps</h3>
+            <p>She can watch your Claude sessions in Projects, use MCP servers' tools, learn skills, and work beside you in Chrome. Each one asks first.</p>
+          </article>
+        </div>
+        <p class="center"><a class="btn btn-primary" href="agents.html">How agents work together</a></p>
+      </section>
+
+      <section class="section wrap" id="private" aria-labelledby="private-title">
+        <div class="section-head">
+          <h2 id="private-title">What stays on your computer</h2>
+        </div>
+        <div class="panels">
+          <div class="panel stitch">
+            <h3>Your things</h3>
+            <ul>
+              <li>Your chats, her memory and her inner world are files in the Framework's own folder on your computer.</li>
+              <li>API keys are encrypted by your system's keychain, and only the app's main process handles them. The page you see never holds one.</li>
+              <li>The Vault and the journal are encrypted at rest, and nothing gives them to her.</li>
+            </ul>
+          </div>
+          <div class="panel stitch">
+            <h3>What goes out, and where</h3>
+            <ul>
+              <li>Each chat goes from your computer to the provider you picked, and her inner life to Claude or the brain you picked for it. Web searches go to that provider's own search, or to Claude's when it has none and you have a Claude key.</li>
+              <li>Sites &amp; homelab checks your own sites and servers.</li>
+              <li>Her clock asks an internet time server for the time, unless you switch that off.</li>
+              <li>If you let her click on checked sites, the site's name goes to Cloudflare and rdap.org for the check.</li>
+            </ul>
+          </div>
+          <div class="panel stitch">
+            <h3>What asks first</h3>
+            <ul>
+              <li>Her commands, file changes, clicks and typing, with Run and Skip. A chat's <a href="principles.html#skip">skip permissions box</a> lets her local steps through, and asks you first.</li>
+              <li>Watching your projects' sessions, and looking for servers.</li>
+              <li>Each agent looking around Projects, Games or Sites, which starts off.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="honest" aria-labelledby="honest-title">
+        <div class="section-head">
+          <h2 id="honest-title">What's been tested, and what hasn't</h2>
+        </div>
+        <div class="panels">
+          <div class="panel stitch">
+            <h3>Tested</h3>
+            <ul>
+              <li>Unit tests, and an end-to-end test that drives the setup (with a brain on a provider other than Claude) and every section against made-up data, a test AI server and pretend networks.</li>
+              <li>1.1.0's installers, built, installed and run through that test on Windows 11 and on Ubuntu in WSL.</li>
+              <li>The Hub's real lists, read on the owner's computer with nothing changed.</li>
+            </ul>
+          </div>
+          <div class="panel honest stitch">
+            <h3>Not yet, or only a little</h3>
+            <ul>
+              <li>Her inner life has only run live briefly, on Claude. Her free time and her sleep have only run against a test server.</li>
+              <li>Other providers haven't been tried live for her inner life, its web searches or her helpers, only against a test server. Her reflection guide was written on Claude, so other models may follow it less closely.</li>
+              <li>Most chat paths have run against a test server. Real providers have only been tried a little.</li>
+              <li>What things cost is the app's own estimate, from each provider's listed prices.</li>
+              <li>Whether parts work makes her less of a pushover over weeks of real chats hasn't been measured.</li>
+              <li>No code signing, no macOS, and on Linux only a <code>.deb</code> for now.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="products" aria-labelledby="products-title">
+        <div class="section-head">
+          <h2 id="products-title">Three apps, three repos</h2>
+          <p>Each has its own installer. All three repos are private for now, so their links only work for people who have access.</p>
+        </div>
+        <div class="cards">
+          <article class="card stitch">
+            <span class="pill pill-out">1.1.0</span>
+            <h3>The Serenity Framework</h3>
+            <p>This one: Serenity and the Hub's sections in one app, with a first-run setup.</p>
+            <p class="meta">Repo: <a href="https://github.com/serenityframework/serenity"><code>serenity</code></a></p>
+          </article>
+          <article class="card stitch">
+            <span class="pill pill-out">1.2.0</span>
+            <h3>The Serenity Desktop App</h3>
+            <p>Serenity on her own: chat, harness, inner life, agents and tools. The Framework is built on it.</p>
+            <p class="meta">Repo: <a href="https://github.com/serenityframework/serenity-desktop"><code>serenity-desktop</code></a></p>
+          </article>
+          <article class="card stitch">
+            <span class="pill pill-own">1.2.0</span>
+            <h3>Serenity Desktop Hub</h3>
+            <p>The original launcher for Windows, in Python, where the sections came from. It still works on its own, and the Framework can use its lists as they are.</p>
+            <p class="meta">Repo: <a href="https://github.com/serenityframework/serenity-desktop-hub"><code>serenity-desktop-hub</code></a></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+        <p>The Serenity Framework for Agents, made with care by Silvaria Sereneblossom.</p>
+        <p>
+          Fonts: Nunito and Petit Formal Script, bundled under the SIL Open Font License
+          (<a href="fonts/OFL-Nunito.txt">Nunito's</a>, <a href="fonts/OFL-PetitFormalScript.txt">Petit Formal Script's</a>).
+          This site has no scripts and no trackers.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
