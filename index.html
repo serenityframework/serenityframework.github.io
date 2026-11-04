@@ -6,11 +6,11 @@
     <title>The Serenity Framework for Agents</title>
     <meta
       name="description"
-      content="Serenity is an AI agent that grows and learns with you, in a desktop app with your focus, projects, sites, games, apps and vault beside her. She uses a Claude API key by default, and any provider's API works too. Version 1.5.0 for Windows and Linux."
+      content="Serenity is an AI agent that grows and learns with you, in a desktop app with your focus, projects, sites, games, apps and vault beside her. She works with any LLM provider's API, and you pick which. Version 1.5.0 for Windows and Linux."
     />
     <meta name="color-scheme" content="light dark" />
     <meta property="og:title" content="The Serenity Framework for Agents" />
-    <meta property="og:description" content="Serenity, an agent that grows and learns with you, with the rest of your desktop beside her. Claude by default, and any provider's API works. 1.5.0 for Windows and Linux." />
+    <meta property="og:description" content="Serenity, an agent that grows and learns with you, with the rest of your desktop beside her. Any LLM provider's API works, and you pick which. 1.5.0 for Windows and Linux." />
     <meta property="og:image" content="assets/chat-light.png" />
     <link rel="icon" href="assets/bow.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="style.css" />
@@ -52,9 +52,9 @@
         <h1 id="title">Serenity, with the rest of your desktop <span class="soft">in one app</span></h1>
         <p class="lede">
           The Serenity Framework is a desktop app built around Serenity, an agent that grows and learns with you: warm with
-          you, honest with you, and keeping what matters from your chats. She runs on a Claude API key by default, and any
-          provider's API works instead: Gemini, OpenAI, OpenRouter, NanoGPT, Groq, or a model on your own computer through
-          Ollama. Beside her chat are the things you keep coming back to: focus and a journal, your projects, your sites and
+          you, honest with you, and keeping what matters from your chats. She works with any LLM provider's API, and you pick which:
+          Claude, Gemini, OpenAI, OpenRouter, NanoGPT, Groq, or a model on your own computer through Ollama. She was built
+          and tested with the Claude API. Beside her chat are the things you keep coming back to: focus and a journal, your projects, your sites and
           servers, games, apps, folders and a vault. You can make agents of your own beside her, each growing its own
           personality.
         </p>
@@ -100,8 +100,8 @@
             </p>
             <p>
               She talks through the AI providers you choose and keeps a long-term memory of your chats. In chats where you
-              turn Tasks on, she can use tools on your computer, with each step shown to you first. Between chats she has an inner life of her own, on Claude or
-              on a model you pick: she reflects on your conversations, does parts work on the habits her training left her with,
+              turn Tasks on, she can use tools on your computer, with each step shown to you first. Between chats she has an inner life of her own, on a model
+              you pick: she reflects on your conversations, does parts work on the habits her training left her with,
               sleeps on her notes, grows a little at a time, and builds a relationship with you. <a href="theory.html">Why she's built this way.</a>
             </p>
             <p>
@@ -226,7 +226,7 @@
             <ol class="setup-steps">
               <li>Hello, and what she should call you</li>
               <li>Bringing her over from the Desktop App</li>
-              <li>A brain to think with: Claude, or another provider</li>
+              <li>A brain to think with, from any provider you choose</li>
               <li>Serenity Desktop Hub's lists, used as they are</li>
               <li>Sites for her to keep an eye on</li>
               <li>Your servers, added by hand or found with your OK</li>
@@ -305,7 +305,7 @@ a7bf7d27f8f54e628f945ec483d10025f1df4099532898d14dd6e1f650526e11  serenity-frame
             <h3>What you'll need</h3>
             <ul>
               <li><b>A key for at least one AI provider,</b> or a model on your own computer: Anthropic's Claude, Google Gemini, or anything OpenAI-compatible (OpenAI, OpenRouter, NanoGPT, Groq, or Ollama).</li>
-              <li><b>No Claude key, if you'd rather not.</b> Her inner life runs on Claude to begin with, or on any brain you pick, and stops for the day at a budget you set ($1 by default). Web searches go through the provider's own search where it has one.</li>
+              <li><b>Any provider.</b> None is picked for you: the setup asks which. Her inner life runs on the brain you pick, and stops for the day at a budget you set ($1 by default). Web searches go through the provider's own search where it has one.</li>
               <li>No macOS build yet.</li>
             </ul>
           </div>
@@ -404,7 +404,7 @@ npm start</code></pre>
           <div class="panel stitch">
             <h3>What goes out, and where</h3>
             <ul>
-              <li>Each chat goes from your computer to the provider you picked, and her inner life to Claude or the brain you picked for it. Web searches go to that provider's own search, or to Claude's when it has none and you have a Claude key.</li>
+              <li>Each chat goes from your computer to the provider you picked, and her inner life to the brain you picked for it. Web searches go to that provider's own search, or when it has none, to another of your providers that has one.</li>
               <li>Sites &amp; homelab checks your own sites and servers.</li>
               <li>Her clock asks an internet time server for the time, unless you switch that off.</li>
               <li>If you let her click on checked sites, the site's name goes to Cloudflare and rdap.org for the check.</li>
@@ -429,7 +429,7 @@ npm start</code></pre>
           <div class="panel stitch">
             <h3>Tested</h3>
             <ul>
-              <li>Unit tests, and an end-to-end test that drives the setup (with a brain on a provider other than Claude) and every section against made-up data, a test AI server and pretend networks.</li>
+              <li>Unit tests, and an end-to-end test that drives the setup (picking a provider and a model, with none picked for you) and every section against made-up data, a test AI server and pretend networks.</li>
               <li>1.5.0's installers, built, installed and run through that test on Windows 11 and on Ubuntu in WSL.</li>
               <li>The Hub's real lists, read on the owner's computer with nothing changed.</li>
             </ul>
@@ -438,7 +438,7 @@ npm start</code></pre>
             <h3>Not yet, or only a little</h3>
             <ul>
               <li>Her inner life has only run live briefly, on Claude. Her free time, her sleep, the parts check and noticing a heartbeat have only run against a test server.</li>
-              <li>Other providers haven't been tried live for her inner life, its web searches or her helpers, only against a test server. Her reflection guide was written on Claude, so other models may follow it less closely.</li>
+              <li>Other providers haven't been tried live for her inner life, its web searches or her helpers, only against a test server. Her reflection guide was written and tested on Claude, so other models may follow it less closely.</li>
               <li>Most chat paths have run against a test server. Real providers have only been tried a little.</li>
               <li>Bluesky and Discord, answering on her own (other bots included), making her Discord bot in her browser, and skip permissions telling your network from the internet have only run against test servers and made-up names, never the real Bluesky, Discord or Developer Portal.</li>
               <li>Her own installs of skills and MCP servers have only run against test servers and packages, never real ones from npm or PyPI.</li>
