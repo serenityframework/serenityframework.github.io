@@ -6,11 +6,11 @@
     <title>The Serenity Framework for Agents</title>
     <meta
       name="description"
-      content="Serenity is an AI agent that grows and learns with you, in a desktop app with your focus, projects, sites, games, apps and vault beside her. She works with any LLM provider's API, and you pick which. Version 1.00 for Windows and Linux."
+      content="Serenity is an AI agent that grows and learns with you, in a desktop app with your focus, projects, sites, games, apps and vault beside her. She works with any LLM provider's API, and you pick which. Version 1.01 for Windows and Linux."
     />
     <meta name="color-scheme" content="light dark" />
     <meta property="og:title" content="The Serenity Framework for Agents" />
-    <meta property="og:description" content="Serenity, an agent that grows and learns with you, with the rest of your desktop beside her. Any LLM provider's API works, and you pick which. 1.00 for Windows and Linux." />
+    <meta property="og:description" content="Serenity, an agent that grows and learns with you, with the rest of your desktop beside her. Any LLM provider's API works, and you pick which. 1.01 for Windows and Linux." />
     <meta property="og:image" content="assets/chat-light.png" />
     <link rel="icon" href="assets/bow.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="style.css" />
@@ -48,7 +48,7 @@
 
     <main id="content">
       <section class="hero wrap" aria-labelledby="title">
-        <p class="eyebrow">Version 1.00, for Windows and Linux</p>
+        <p class="eyebrow">Version 1.01, for Windows and Linux</p>
         <h1 id="title">Serenity, with the rest of your desktop <span class="soft">in one app</span></h1>
         <p class="lede">
           The Serenity Framework is a desktop app built around Serenity, an agent that grows and learns with you: warm with
@@ -61,15 +61,15 @@
 
         <div class="status stitch">
           <p>
-            <span class="status-label">Where it stands.</span> 1.00 is the first full release, on the Serenity Desktop App's 1.00 (all three apps started their numbering again at 1.00, and everything before is a pre-release). It's new, and much of it has
+            <span class="status-label">Where it stands.</span> 1.01 is the latest release, on the Serenity Desktop App's 1.01 (all three apps started their numbering again at 1.00 today, and everything before is a pre-release). Once it's installed, Settings → Changelog checks for new versions. It's new, and much of it has
             been tested against test servers and made-up data rather than months of real use. This site says so where it
             matters.
           </p>
-          <p>The repository is private for now, so the downloads only work for people who have access to it.</p>
+          <p>The code is in private repos for now, but the installers are on this site's own releases, so anyone can download them.</p>
         </div>
 
         <div class="cta">
-          <a class="btn btn-primary" href="#get-it">Download 1.00</a>
+          <a class="btn btn-primary" href="#get-it">Download 1.01</a>
           <a class="btn btn-soft" href="theory.html">The theory behind her</a>
         </div>
 
@@ -253,8 +253,8 @@
         <div class="section-head">
           <h2 id="get-title">Download</h2>
           <p>
-            Version 1.00, released on November 4, 2026. All the files are on the
-            <a href="https://github.com/serenityframework/serenity/releases/tag/v1.00">release page</a>.
+            Version 1.01, released on November 4, 2026. All the files are on the
+            <a href="https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.01">release page</a>.
           </p>
         </div>
 
@@ -266,7 +266,7 @@
               <span class="pill">125 MB</span>
             </div>
             <p>
-              <a class="btn btn-primary" href="https://github.com/serenityframework/serenity/releases/download/v1.00/Serenity-Framework-Setup-1.00.exe">Serenity-Framework-Setup-1.00.exe</a>
+              <a class="btn btn-primary" href="https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.01/Serenity-Framework-Setup-1.01.exe">Serenity-Framework-Setup-1.01.exe</a>
             </p>
             <p>
               It installs for you only, with no admin needed, and adds the Framework to the Start menu. It isn't code-signed
@@ -281,10 +281,10 @@
               <span class="pill">106 MB</span>
             </div>
             <p>
-              <a class="btn btn-primary" href="https://github.com/serenityframework/serenity/releases/download/v1.00/serenity-framework_1.00_amd64.deb">serenity-framework_1.00_amd64.deb</a>
+              <a class="btn btn-primary" href="https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.01/serenity-framework_1.01_amd64.deb">serenity-framework_1.01_amd64.deb</a>
             </p>
             <p>Then, in the folder you saved it to:</p>
-            <pre><code>sudo apt install ./serenity-framework_1.00_amd64.deb</code></pre>
+            <pre><code>sudo apt install ./serenity-framework_1.01_amd64.deb</code></pre>
             <p class="meta">64-bit. Tested on Ubuntu in WSL. A tarball and a Flatpak come next.</p>
           </article>
         </div>
@@ -292,12 +292,12 @@
         <details class="sums stitch">
           <summary>Checking the files (SHA-256)</summary>
           <p>
-            These match <a href="https://github.com/serenityframework/serenity/releases/download/v1.00/SHA256SUMS.txt">SHA256SUMS.txt</a>
+            These match <a href="https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.01/SHA256SUMS.txt">SHA256SUMS.txt</a>
             on the release page.
           </p>
-          <pre><code>6e6f037661058e095ddbeec2a09925e5759a156a5268fcb1dfcc5dd42d9f902c  Serenity-Framework-Setup-1.00.exe
-f9fe2b4b434096976aff6b6d2052413115f0514555e3c73bc02eb8a60133745d  serenity-framework_1.00_amd64.deb</code></pre>
-          <p>On Windows, <code>Get-FileHash .\Serenity-Framework-Setup-1.00.exe</code> in PowerShell. On Linux, <code>sha256sum -c SHA256SUMS.txt</code>.</p>
+          <pre><code>27c0b2f91601424c276104aad4b5294df4aa9d025667b8871a66a7eaa9686f4f  Serenity-Framework-Setup-1.01.exe
+b3336e15a4c620a670f05205c55430214ce02c7d8dc303c81a57bccd79fbed35  serenity-framework_1.01_amd64.deb</code></pre>
+          <p>On Windows, <code>Get-FileHash .\Serenity-Framework-Setup-1.01.exe</code> in PowerShell. On Linux, <code>sha256sum -c SHA256SUMS.txt</code>.</p>
         </details>
 
         <div class="panels">
@@ -430,7 +430,7 @@ npm start</code></pre>
             <h3>Tested</h3>
             <ul>
               <li>Unit tests, and an end-to-end test that drives the setup (picking a provider and a model, with none picked for you) and every section against made-up data, a test AI server and pretend networks.</li>
-              <li>1.00's installers, built, installed and run through that test on Windows 11 and on Ubuntu in WSL.</li>
+              <li>1.01's installers, built, installed and run through that test on Windows 11 and on Ubuntu in WSL.</li>
               <li>The Hub's real lists, read on the owner's computer with nothing changed.</li>
             </ul>
           </div>
@@ -454,17 +454,17 @@ npm start</code></pre>
       <section class="section wrap" id="products" aria-labelledby="products-title">
         <div class="section-head">
           <h2 id="products-title">Three apps, three repos</h2>
-          <p>Each has its own installer. All three repos are private for now, so their links only work for people who have access.</p>
+          <p>Each has its own installer. All three repos are private for now, so their links only work for people who have access. The installers are on this site's releases.</p>
         </div>
         <div class="cards">
           <article class="card stitch">
-            <span class="pill pill-out">1.00</span>
+            <span class="pill pill-out">1.01</span>
             <h3>The Serenity Framework</h3>
             <p>This one: Serenity and the Hub's sections in one app, with a first-run setup.</p>
             <p class="meta">Repo: <a href="https://github.com/serenityframework/serenity"><code>serenity</code></a></p>
           </article>
           <article class="card stitch">
-            <span class="pill pill-out">1.00</span>
+            <span class="pill pill-out">1.01</span>
             <h3>The Serenity Desktop App</h3>
             <p>Serenity on her own: chat, harness, inner life, agents and tools. The Framework is built on it.</p>
             <p class="meta">Repo: <a href="https://github.com/serenityframework/serenity-desktop"><code>serenity-desktop</code></a></p>
