@@ -1,0 +1,14 @@
+{
+  "product": "desktop",
+  "name": "1.01",
+  "version": "1.1.0",
+  "date": "2026-11-04",
+  "notes": "Settings in groups, and a Changelog with updates.\n\n- **Settings is in groups:** **API Management** (Brains, Providers & keys, Spend), **Serenity** (Persona, Memories, Harness), **Agents**, **Tasks**, **Emoji**, **Utilities** (Skills, MCP, Pictures), **Social** and **Changelog**. A group of several pages has a row of its own, and remembers the page it showed last. `/settings <page>` still opens any page.\n- **Changelog** shows the version you have and what's changed in each one.\n- **Check for updates** asks serenityframework.github.io for the newest version, only when you press it, and shows what's in it.\n  - **On Windows,** **Download and install** downloads it from the site's release, checks it against its published checksum, asks you, then installs it and opens Serenity again.\n  - **On Linux,** it opens the download page.\n- Each release's installers are on the site too, so updates work while the repos are private.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.01",
+  "windows": {
+    "file": "Serenity-Setup-1.01.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.01/Serenity-Setup-1.01.exe",
+    "sha256": "69c2eb7b43f62e1cffd7fd1df5661d5aa95d868d80bd91d4f276badc02718319",
+    "size": 131198077
+  }
+}
