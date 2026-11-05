@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.10",
-  "version": "1.10.0",
-  "date": "2026-11-04",
-  "notes": "On the Serenity Desktop App's 1.10: her Bluesky and Discord calls in her memory.\n\n- **Her replies on Bluesky and Discord run on a brain you pick** in Settings → Social (**Her replies run on**), or the brain for new chats, and draw on her own notes and free time and her earlier calls with that same account. Never your memory, your relationship or anything about the people in your life.\n- **Remember her calls in her memory** (off until you tick it): each DM, mention and reply, answered or missed, goes into her memory, recalled in your chats and in that same account's later replies, never anyone else's. **Calls she remembers** lists them, each with **Forget**.\n- **Discord catches up** on the pings that came while the Framework was off, each time it starts.\n- Bringing her over from the Desktop App brings the calls she remembers with the rest of her memory. Her accounts and their choices stay behind, as before.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.10",
+  "name": "1.11",
+  "version": "1.11.0",
+  "date": "2026-11-05",
+  "notes": "On the Serenity Desktop App's 1.11: she can answer you on Discord by name.\n\n- **Your Discord account** in Settings → Social: press **That's me** on one of your own messages in the log (after a confirmation), and her replies to that account may use your name, in DMs and servers. Before, a reply to you like \"Hi …!\" was held back with \"it named someone you talk with\".\n- Everything else about you stays private there, since others in a server can read her replies, and someone using your name as their display name is still a stranger to her. **Unlink** is next to it.\n- Bringing her over from the Desktop App leaves the link behind, with her accounts.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.11",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.10.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.10/Serenity-Framework-Setup-1.10.exe",
-    "sha256": "d4ca6dbd77181325e130670adea1807aa8eb86dbe0b2609c25fa136b2ba56146",
-    "size": 131359325
+    "file": "Serenity-Framework-Setup-1.11.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.11/Serenity-Framework-Setup-1.11.exe",
+    "sha256": "e5c6a36544b0071d87483239b3d79a8b533d13eecd179d23338b3f2a34028382",
+    "size": 131361510
   }
 }
