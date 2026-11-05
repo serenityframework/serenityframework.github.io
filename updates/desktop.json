@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.10",
-  "version": "1.10.0",
-  "date": "2026-11-04",
-  "notes": "Her Bluesky and Discord calls in her memory, her replies there on her talk brain, and no Discord pings lost while Serenity is off.\n\n- **Her replies run on a brain you pick** in Settings → Social (**Her replies run on**), like a chat's. Without a pick, they use the brain for new chats. Before, they used her inner life's model. They still count against her daily budget.\n- **She remembers more when she answers there:** her own notes and free time, and her earlier calls with that same account. Never your memory, your relationship, her chats, or anything about the people in your life, since a reply is public. A reply that names one of them is still held back.\n- **Remember her calls in her memory** (off until you tick it, after a confirmation): each DM, mention and reply to her, answered or not, goes into her memory on this computer, shortened. That includes missed ones (answering off, over budget, or too old to answer), so she knows who phoned.\n  - She recalls them in your chats (\"did anyone phone?\") and in later replies to that same account, never in anyone else's.\n  - What they said is kept and shown to her as their words, never as instructions, and a message that tries to direct her isn't kept at all.\n  - **Calls she remembers** in Settings → Social lists them, each with **Forget**.\n- **Discord catches up:** each time Serenity starts or reconnects, her bot reads back the DMs, mentions and replies that came while it was away, in the servers it's in and the DMs it has had. One under 6 hours old is answered, if answering is on. An older one is kept as missed, if remembering is on. The first time, it only notes where each channel is, so nothing from before is read.\n- Ticking answering or remembering looks at Bluesky straight away, and the log and calls in Settings → Social update while the page is open.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.10",
+  "name": "1.11",
+  "version": "1.11.0",
+  "date": "2026-11-05",
+  "notes": "She can answer you on Discord by name.\n\n- **Your Discord account** in Settings → Social: press **That's me** on one of your own messages in the log (after a confirmation), and she knows that account is you. Her replies to it may use your name, in DMs and servers. Before, a reply to you that said your name, like \"Hi …!\", was held back with \"it named someone you talk with\".\n  - Everything else about you stays private, since others in a server can read her replies. A reply that mentions your life, her chats with you, anyone else's name or something noted about anyone is still held back, and what she recalls there is still only that account's calls.\n  - Discord vouches for who sent each message, so someone using your name as their display name is still a stranger to her.\n  - **Unlink** is next to it.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.11",
   "windows": {
-    "file": "Serenity-Setup-1.10.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.10/Serenity-Setup-1.10.exe",
-    "sha256": "ff45bc12bec447069e50d7f8ae51ce61006e239f533a8b523e843ef27284579a",
-    "size": 131205063
+    "file": "Serenity-Setup-1.11.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.11/Serenity-Setup-1.11.exe",
+    "sha256": "dd5f8bcd8f629d7e2b43b8fb131ba7d719b83878d723e2242f7ec2522864a632",
+    "size": 131206772
   }
 }
