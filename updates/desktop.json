@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.12",
-  "version": "1.12.0",
+  "name": "1.13",
+  "version": "1.13.0",
   "date": "2026-11-05",
-  "notes": "Her replies on Discord and Bluesky are no longer held back for sounding like something noted about someone.\n\n- **No more echo check on her replies there.** Before, a reply that shared two telling words with anything noted about you or your people, like \"the cello\" or \"moving in March\", was held back with \"it echoed something about someone you talk with\", even when she only said it back to the person who brought it up. Those notes were never in her prompt there, so the check mostly caught ordinary replies.\n- A reply that names someone you talk with is still held back (your own name is fine to your linked Discord account), and so is one with a link or a secret.\n- Her free-time searches and notes keep the echo check, so nothing noted about your people goes to a search engine.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.12",
+  "notes": "She answers on Discord as soon as a message comes, and keeps talking as long as you do.\n\n- **Discord messages are answered as they arrive.** Before, she looked once a minute, so a reply took anywhere from a few seconds to over a minute, most of it waiting for that look. A message that comes while she's answering another is answered right after. Bluesky is still looked at every 2 minutes.\n- **No more per-account or per-conversation cap for people.** Before, she stopped after 3 replies to one account in an hour (\"3 replies to them in the last hour already\") and 6 in one conversation a day. Now only your hourly cap (Settings → Social) and her daily budget hold.\n- **Your own Discord account has no cap at all**, once linked with That's me, and your conversations with her don't count toward the hourly cap.\n- Other bots keep both caps (3 an hour each, 6 a day in one conversation), so two bots still can't go on forever.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.13",
   "windows": {
-    "file": "Serenity-Setup-1.12.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.12/Serenity-Setup-1.12.exe",
-    "sha256": "693520e804156d8f42b4bfcc8d2a4a77a4591e39b5a2a4d14d4d8bc7a95ab6e6",
-    "size": 131207026
+    "file": "Serenity-Setup-1.13.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.13/Serenity-Setup-1.13.exe",
+    "sha256": "561a2b9c5269a908799b6b498fbb1ff5e0788f2c48b72e5c72cc063e29b65b47",
+    "size": 131207695
   }
 }

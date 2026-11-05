@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.12",
-  "version": "1.12.0",
+  "name": "1.13",
+  "version": "1.13.0",
   "date": "2026-11-05",
-  "notes": "On the Serenity Desktop App's 1.12: her replies on Discord and Bluesky are no longer held back for sounding like something noted about someone.\n\n- **No more echo check on her replies there.** Before, a reply that shared two telling words with anything noted about you or your people was held back with \"it echoed something about someone you talk with\". A reply that names someone you talk with is still held back (your own name is fine to your linked Discord account), and so is one with a link or a secret.\n- Her free-time searches and notes keep the echo check.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.12",
+  "notes": "On the Serenity Desktop App's 1.13: she answers on Discord as soon as a message comes, and keeps talking as long as you do.\n\n- **Discord messages are answered as they arrive,** not at the next once-a-minute look.\n- **No more per-account or per-conversation cap for people,** only your hourly cap and her daily budget. Your own linked Discord account has no cap at all and doesn't count toward the hourly one. Other bots keep both caps, so two bots can't go on forever.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.13",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.12.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.12/Serenity-Framework-Setup-1.12.exe",
-    "sha256": "b7786e2d90020256132b06fb66e6a815bef6df82f1748af95ad039c365dcd0d2",
-    "size": 131361883
+    "file": "Serenity-Framework-Setup-1.13.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.13/Serenity-Framework-Setup-1.13.exe",
+    "sha256": "ebc292418c6b01907db3e2fa39cfc830fe1c67be86b37cf708cedc650cd4682c",
+    "size": 131362604
   }
 }
