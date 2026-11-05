@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.01",
-  "version": "1.1.0",
+  "name": "1.10",
+  "version": "1.10.0",
   "date": "2026-11-04",
-  "notes": "Settings in groups, and a Changelog with updates.\n\n- **Settings is in groups:** **API Management** (Brains, Providers & keys, Spend), **Serenity** (Persona, Memories, Harness), **Agents**, **Tasks**, **Emoji**, **Utilities** (Skills, MCP, Pictures), **Social** and **Changelog**. A group of several pages has a row of its own, and remembers the page it showed last. `/settings <page>` still opens any page.\n- **Changelog** shows the version you have and what's changed in each one.\n- **Check for updates** asks serenityframework.github.io for the newest version, only when you press it, and shows what's in it.\n  - **On Windows,** **Download and install** downloads it from the site's release, checks it against its published checksum, asks you, then installs it and opens Serenity again.\n  - **On Linux,** it opens the download page.\n- Each release's installers are on the site too, so updates work while the repos are private.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.01",
+  "notes": "Her Bluesky and Discord calls in her memory, her replies there on her talk brain, and no Discord pings lost while Serenity is off.\n\n- **Her replies run on a brain you pick** in Settings → Social (**Her replies run on**), like a chat's. Without a pick, they use the brain for new chats. Before, they used her inner life's model. They still count against her daily budget.\n- **She remembers more when she answers there:** her own notes and free time, and her earlier calls with that same account. Never your memory, your relationship, her chats, or anything about the people in your life, since a reply is public. A reply that names one of them is still held back.\n- **Remember her calls in her memory** (off until you tick it, after a confirmation): each DM, mention and reply to her, answered or not, goes into her memory on this computer, shortened. That includes missed ones (answering off, over budget, or too old to answer), so she knows who phoned.\n  - She recalls them in your chats (\"did anyone phone?\") and in later replies to that same account, never in anyone else's.\n  - What they said is kept and shown to her as their words, never as instructions, and a message that tries to direct her isn't kept at all.\n  - **Calls she remembers** in Settings → Social lists them, each with **Forget**.\n- **Discord catches up:** each time Serenity starts or reconnects, her bot reads back the DMs, mentions and replies that came while it was away, in the servers it's in and the DMs it has had. One under 6 hours old is answered, if answering is on. An older one is kept as missed, if remembering is on. The first time, it only notes where each channel is, so nothing from before is read.\n- Ticking answering or remembering looks at Bluesky straight away, and the log and calls in Settings → Social update while the page is open.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.10",
   "windows": {
-    "file": "Serenity-Setup-1.01.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.01/Serenity-Setup-1.01.exe",
-    "sha256": "69c2eb7b43f62e1cffd7fd1df5661d5aa95d868d80bd91d4f276badc02718319",
-    "size": 131198077
+    "file": "Serenity-Setup-1.10.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.10/Serenity-Setup-1.10.exe",
+    "sha256": "ff45bc12bec447069e50d7f8ae51ce61006e239f533a8b523e843ef27284579a",
+    "size": 131205063
   }
 }

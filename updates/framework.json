@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.01",
-  "version": "1.1.0",
+  "name": "1.10",
+  "version": "1.10.0",
   "date": "2026-11-04",
-  "notes": "On the Serenity Desktop App's 1.01: Settings in groups, and a Changelog with updates.\n\n- **Settings is in groups:** **API Management** (Brains, Providers & keys, Spend), **Serenity** (Persona, Memories, Harness), **Agents**, **Tasks**, **Emoji**, **Utilities** (Skills, MCP, Pictures), **Social** and **Changelog**.\n- **Changelog** is the Framework's own: its version and what's changed in each one.\n- **Check for updates** asks serenityframework.github.io for the newest Framework, only when you press it. On Windows, **Download and install** gets it from the site's release, checks it against its published checksum, asks you, then installs it and opens the Framework again. On Linux it opens the download page.\n- Each release's installers are on the site too, so updates work while the repos are private.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.01",
+  "notes": "On the Serenity Desktop App's 1.10: her Bluesky and Discord calls in her memory.\n\n- **Her replies on Bluesky and Discord run on a brain you pick** in Settings → Social (**Her replies run on**), or the brain for new chats, and draw on her own notes and free time and her earlier calls with that same account. Never your memory, your relationship or anything about the people in your life.\n- **Remember her calls in her memory** (off until you tick it): each DM, mention and reply, answered or missed, goes into her memory, recalled in your chats and in that same account's later replies, never anyone else's. **Calls she remembers** lists them, each with **Forget**.\n- **Discord catches up** on the pings that came while the Framework was off, each time it starts.\n- Bringing her over from the Desktop App brings the calls she remembers with the rest of her memory. Her accounts and their choices stay behind, as before.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.10",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.01.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.01/Serenity-Framework-Setup-1.01.exe",
-    "sha256": "27c0b2f91601424c276104aad4b5294df4aa9d025667b8871a66a7eaa9686f4f",
-    "size": 131351581
+    "file": "Serenity-Framework-Setup-1.10.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.10/Serenity-Framework-Setup-1.10.exe",
+    "sha256": "d4ca6dbd77181325e130670adea1807aa8eb86dbe0b2609c25fa136b2ba56146",
+    "size": 131359325
   }
 }
