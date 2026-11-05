@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.13",
-  "version": "1.13.0",
+  "name": "1.20",
+  "version": "1.20.0",
   "date": "2026-11-05",
-  "notes": "On the Serenity Desktop App's 1.13: she answers on Discord as soon as a message comes, and keeps talking as long as you do.\n\n- **Discord messages are answered as they arrive,** not at the next once-a-minute look.\n- **No more per-account or per-conversation cap for people,** only your hourly cap and her daily budget. Your own linked Discord account has no cap at all and doesn't count toward the hourly one. Other bots keep both caps, so two bots can't go on forever.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.13",
+  "notes": "On the Serenity Desktop App's 1.20: she can talk on Discord without being pinged.\n\n- **Her name counts as a mention.** \"Serenity, what do you think?\" in a server is answered like an @, without pinging them back.\n- **Joining in on her own,** if you let her (Settings → Social, off at first): only in the channels you tick, a small chance for each message (you choose) of her reading along and deciding whether to say something. Mostly she lets it pass. Never on other bots or in DMs, within your hourly cap and her daily budget, and messages nobody sent her are never kept.\n- **\"Serenity is typing…\"** shows on Discord while she thinks.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.20",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.13.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.13/Serenity-Framework-Setup-1.13.exe",
-    "sha256": "ebc292418c6b01907db3e2fa39cfc830fe1c67be86b37cf708cedc650cd4682c",
-    "size": 131362604
+    "file": "Serenity-Framework-Setup-1.20.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.20/Serenity-Framework-Setup-1.20.exe",
+    "sha256": "752090eab41d53fc964f3cd98ffae8d3603366fd2d646a2720f88ba254815065",
+    "size": 131368012
   }
 }

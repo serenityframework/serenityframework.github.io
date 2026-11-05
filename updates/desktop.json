@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.13",
-  "version": "1.13.0",
+  "name": "1.20",
+  "version": "1.20.0",
   "date": "2026-11-05",
-  "notes": "She answers on Discord as soon as a message comes, and keeps talking as long as you do.\n\n- **Discord messages are answered as they arrive.** Before, she looked once a minute, so a reply took anywhere from a few seconds to over a minute, most of it waiting for that look. A message that comes while she's answering another is answered right after. Bluesky is still looked at every 2 minutes.\n- **No more per-account or per-conversation cap for people.** Before, she stopped after 3 replies to one account in an hour (\"3 replies to them in the last hour already\") and 6 in one conversation a day. Now only your hourly cap (Settings → Social) and her daily budget hold.\n- **Your own Discord account has no cap at all**, once linked with That's me, and your conversations with her don't count toward the hourly cap.\n- Other bots keep both caps (3 an hour each, 6 a day in one conversation), so two bots still can't go on forever.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.13",
+  "notes": "She can talk on Discord without being pinged.\n\n- **Her name counts as a mention.** \"Serenity, what do you think?\" in a server is answered like an @, as a reply that doesn't ping them. This works anywhere she answers, once answering is on.\n- **Joining in on her own** (Settings → Social → **Join in on Discord on her own**, off at first, and it asks first). Tick the channels she may join in. For each message there, she rolls a chance (10 in 100 at first, 1 to 50) before anything else, so ignored chatter costs nothing. When the roll says yes, she reads the newest messages and decides. Most of the time she lets it pass (\"let it pass\" in the log). When she speaks, it's a plain message in the channel.\n  - At most one look a channel every 10 minutes. Right after she spoke there (5 minutes), people are likely still talking with her, so it's 1 in 2, at most once a minute.\n  - A message about something from her free time this week doubles the chance; at night (midnight to 7) it's a third.\n  - Never on another bot's message, never in DMs, and always within your hourly cap and her daily budget. It needs Message Content.\n  - Messages nobody sent her are never kept: not in the log's file and not in her memory. A join-in is remembered only when she actually posted.\n- **\"Serenity is typing…\"** shows on Discord while she thinks about a reply, and for a moment before she joins in (never before a pass).",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.20",
   "windows": {
-    "file": "Serenity-Setup-1.13.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.13/Serenity-Setup-1.13.exe",
-    "sha256": "561a2b9c5269a908799b6b498fbb1ff5e0788f2c48b72e5c72cc063e29b65b47",
-    "size": 131207695
+    "file": "Serenity-Setup-1.20.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.20/Serenity-Setup-1.20.exe",
+    "sha256": "39832e64a228a4adda3dabcf32a08e7b19ba0434aff641e346bfa120a5277dcd",
+    "size": 131212380
   }
 }
