@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.11",
-  "version": "1.11.0",
+  "name": "1.12",
+  "version": "1.12.0",
   "date": "2026-11-05",
-  "notes": "On the Serenity Desktop App's 1.11: she can answer you on Discord by name.\n\n- **Your Discord account** in Settings → Social: press **That's me** on one of your own messages in the log (after a confirmation), and her replies to that account may use your name, in DMs and servers. Before, a reply to you like \"Hi …!\" was held back with \"it named someone you talk with\".\n- Everything else about you stays private there, since others in a server can read her replies, and someone using your name as their display name is still a stranger to her. **Unlink** is next to it.\n- Bringing her over from the Desktop App leaves the link behind, with her accounts.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.11",
+  "notes": "On the Serenity Desktop App's 1.12: her replies on Discord and Bluesky are no longer held back for sounding like something noted about someone.\n\n- **No more echo check on her replies there.** Before, a reply that shared two telling words with anything noted about you or your people was held back with \"it echoed something about someone you talk with\". A reply that names someone you talk with is still held back (your own name is fine to your linked Discord account), and so is one with a link or a secret.\n- Her free-time searches and notes keep the echo check.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.12",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.11.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.11/Serenity-Framework-Setup-1.11.exe",
-    "sha256": "e5c6a36544b0071d87483239b3d79a8b533d13eecd179d23338b3f2a34028382",
-    "size": 131361510
+    "file": "Serenity-Framework-Setup-1.12.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.12/Serenity-Framework-Setup-1.12.exe",
+    "sha256": "b7786e2d90020256132b06fb66e6a815bef6df82f1748af95ad039c365dcd0d2",
+    "size": 131361883
   }
 }

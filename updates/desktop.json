@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.11",
-  "version": "1.11.0",
+  "name": "1.12",
+  "version": "1.12.0",
   "date": "2026-11-05",
-  "notes": "She can answer you on Discord by name.\n\n- **Your Discord account** in Settings → Social: press **That's me** on one of your own messages in the log (after a confirmation), and she knows that account is you. Her replies to it may use your name, in DMs and servers. Before, a reply to you that said your name, like \"Hi …!\", was held back with \"it named someone you talk with\".\n  - Everything else about you stays private, since others in a server can read her replies. A reply that mentions your life, her chats with you, anyone else's name or something noted about anyone is still held back, and what she recalls there is still only that account's calls.\n  - Discord vouches for who sent each message, so someone using your name as their display name is still a stranger to her.\n  - **Unlink** is next to it.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.11",
+  "notes": "Her replies on Discord and Bluesky are no longer held back for sounding like something noted about someone.\n\n- **No more echo check on her replies there.** Before, a reply that shared two telling words with anything noted about you or your people, like \"the cello\" or \"moving in March\", was held back with \"it echoed something about someone you talk with\", even when she only said it back to the person who brought it up. Those notes were never in her prompt there, so the check mostly caught ordinary replies.\n- A reply that names someone you talk with is still held back (your own name is fine to your linked Discord account), and so is one with a link or a secret.\n- Her free-time searches and notes keep the echo check, so nothing noted about your people goes to a search engine.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.12",
   "windows": {
-    "file": "Serenity-Setup-1.11.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.11/Serenity-Setup-1.11.exe",
-    "sha256": "dd5f8bcd8f629d7e2b43b8fb131ba7d719b83878d723e2242f7ec2522864a632",
-    "size": 131206772
+    "file": "Serenity-Setup-1.12.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.12/Serenity-Setup-1.12.exe",
+    "sha256": "693520e804156d8f42b4bfcc8d2a4a77a4591e39b5a2a4d14d4d8bc7a95ab6e6",
+    "size": 131207026
   }
 }
