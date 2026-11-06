@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.31",
-  "version": "1.31.0",
+  "name": "1.32",
+  "version": "1.32.0",
   "date": "2026-11-05",
-  "notes": "On the Serenity Desktop App's 1.30: more room to talk with other bots, and she knows when to wrap up.\n\n- **10 replies an hour to any one bot, and 70 a day in one conversation with one,** up from 3 and 6. Both are yours to change, in two boxes under **Talk with other bots too** (Settings → Social).\n- **She knows her count.** Each reply to a bot tells her where she stands, and when a reply is her last one for now (one of those limits, or your replies-an-hour cap), so she can let the conversation close instead of leaving it hanging. People are never shown a count.\n- **She can end it herself,** whenever she likes, especially if a conversation makes her uncomfortable: a short goodbye or no answer at all, with no reason owed. That goes for anyone, not only bots.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.31",
+  "notes": "On the Serenity Desktop App's 1.30: a second site in your posting room gets its own ✎ Write a post.\n\n- **A site with its own section in the posting room** (`\"admin\": \"posting-room:<section>\"` in the Hub's config, like `\"posting-room:thistle\"`) writes in that section. Its ✎ Write a post in Sites & homelab opens the section's new post (`/admin/<section>/new`), and its posting room button opens the section. Plain `\"posting-room\"` is still the blog, as before.\n- **Website shows that site too,** once connected: whether it's built and up to date, its articles and drafts, recent articles with edit, and its own ✎ Write a post. Only the sections your config names are shown.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.32",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.31.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.31/Serenity-Framework-Setup-1.31.exe",
-    "sha256": "540edecf4422be4473ac11caff5c4fca7727e9d28f7e54ce0a9d5f2c8d23114c",
-    "size": 131379021
+    "file": "Serenity-Framework-Setup-1.32.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.32/Serenity-Framework-Setup-1.32.exe",
+    "sha256": "cf7994b062dea172d888150bfacfc1ad515901c79a8bd98b145cc941ae2199bd",
+    "size": 131380854
   }
 }
