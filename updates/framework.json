@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.20",
-  "version": "1.20.0",
+  "name": "1.30",
+  "version": "1.30.0",
   "date": "2026-11-05",
-  "notes": "On the Serenity Desktop App's 1.20: she can talk on Discord without being pinged.\n\n- **Her name counts as a mention.** \"Serenity, what do you think?\" in a server is answered like an @, without pinging them back.\n- **Joining in on her own,** if you let her (Settings → Social, off at first): only in the channels you tick, a small chance for each message (you choose) of her reading along and deciding whether to say something. Mostly she lets it pass. Never on other bots or in DMs, within your hourly cap and her daily budget, and messages nobody sent her are never kept.\n- **\"Serenity is typing…\"** shows on Discord while she thinks.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.20",
+  "notes": "On the Serenity Desktop App's 1.30: answering on Bluesky and Discord on her own is the Framework's now, and she's the same her there as in your chats.\n\n- **Moved here from the Desktop App,** the owner's choice: what's specifically Serenity goes in the Framework. Your switches, your linked Discord account, her channels and her log carry over as they were. Her accounts are still set up at the top of Settings → Social.\n- **The same her everywhere.** Her replies carry who she's becoming, her parts and her intention, and How you write, as her chats do (any line that names someone in your life is left out). The generic posting rules got shorter, so her own voice leads. She sees what she said in public over the last two days, so she doesn't repeat herself, and she knows the time.\n- **Her public day in her evening check-in:** how many calls she answered, how often she joined in or let it pass, and a few of her own replies. Never anyone else's words.\n- **Think as hard as in chat** (off at first): her replies use her talk brain's own effort instead of a light one.\n- **Advanced, under Join in:** how often she may look in a channel, how warm a channel stays after she spoke (the chance, how long, how often), the night hours and how quiet she is then, whether her interests count, and whether \"is typing…\" shows. A ticked channel can have its own chance.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.30",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.20.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.20/Serenity-Framework-Setup-1.20.exe",
-    "sha256": "752090eab41d53fc964f3cd98ffae8d3603366fd2d646a2720f88ba254815065",
-    "size": 131368012
+    "file": "Serenity-Framework-Setup-1.30.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.30/Serenity-Framework-Setup-1.30.exe",
+    "sha256": "6bcb9ff59d8ca6b6b0402c9d465f140ba0518d0bf4192149a4d161f9b58be4cf",
+    "size": 131377977
   }
 }
