@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.33",
-  "version": "1.33.0",
-  "date": "2026-11-05",
-  "notes": "On the Serenity Desktop App's 1.30: she notices answers that don't reply to her or ping her.\n\n- **Some bots, and some people, answer with a plain message.** For a few minutes after she speaks in a server channel, she reads what comes right after her and decides whether it's meant for her. If it is, she replies, without a ping. If it's someone else's conversation, she lets it pass (\"let it pass\" in the log), and nothing of it is kept.\n- **Yours to change** in Settings → Social: **Notice answers that don't reply or ping** (on at first), and for how many minutes after she speaks (5 at first, 1 to 30). It needs Message Content.\n- Your limits with bots and her count apply, and her name in such a message counts as a call, from a bot too.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.33",
+  "name": "1.34",
+  "version": "1.34.0",
+  "date": "2026-11-06",
+  "notes": "On the Serenity Desktop App's 1.31: she remembers the words of her other chats with you, and may join in on other bots.\n\n- **A quote from another chat brings it back.** Paste something either of you said in another chat, and she sees that part of it, word for word, with the chat's title and date, so she can say whether she remembers it. Before, a past chat left her only a short summary, which a pasted line rarely matched.\n- **She can look through them herself** (`search_past_chats`) when you ask \"remember when we…?\". It's local and read-only, so it runs without asking.\n- Only ever her chats with the person she's talking with, with the same agent, and nothing leaves your computer. That part needed no change here: `desktop/` moved to the Desktop App's 1.31.\n- **Joining in on other bots' messages,** not only people's, in the channels you tick for her. She reads what other bots post there and may join in, the same way as with people: the dice first, and most of the time she lets it pass. Your limits with bots and her count apply. It's yours to change: **Other bots' messages too**, under Join in on Discord on her own (on at first, and only while Talk with other bots too is on).",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.34",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.33.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.33/Serenity-Framework-Setup-1.33.exe",
-    "sha256": "282a052ca4ea966e516796b5a9d8beedddb80fc0cd291ecea31386ba5e042037",
-    "size": 131382469
+    "file": "Serenity-Framework-Setup-1.34.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.34/Serenity-Framework-Setup-1.34.exe",
+    "sha256": "b3decadf3d4d27259a20000cddbcfbbd11023947b762bf22cf4dd52765a542d6",
+    "size": 131386976
   }
 }
