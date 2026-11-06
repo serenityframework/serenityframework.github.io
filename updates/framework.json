@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.32",
-  "version": "1.32.0",
+  "name": "1.33",
+  "version": "1.33.0",
   "date": "2026-11-05",
-  "notes": "On the Serenity Desktop App's 1.30: a second site in your posting room gets its own ✎ Write a post.\n\n- **A site with its own section in the posting room** (`\"admin\": \"posting-room:<section>\"` in the Hub's config, like `\"posting-room:thistle\"`) writes in that section. Its ✎ Write a post in Sites & homelab opens the section's new post (`/admin/<section>/new`), and its posting room button opens the section. Plain `\"posting-room\"` is still the blog, as before.\n- **Website shows that site too,** once connected: whether it's built and up to date, its articles and drafts, recent articles with edit, and its own ✎ Write a post. Only the sections your config names are shown.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.32",
+  "notes": "On the Serenity Desktop App's 1.30: she notices answers that don't reply to her or ping her.\n\n- **Some bots, and some people, answer with a plain message.** For a few minutes after she speaks in a server channel, she reads what comes right after her and decides whether it's meant for her. If it is, she replies, without a ping. If it's someone else's conversation, she lets it pass (\"let it pass\" in the log), and nothing of it is kept.\n- **Yours to change** in Settings → Social: **Notice answers that don't reply or ping** (on at first), and for how many minutes after she speaks (5 at first, 1 to 30). It needs Message Content.\n- Your limits with bots and her count apply, and her name in such a message counts as a call, from a bot too.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.33",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.32.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.32/Serenity-Framework-Setup-1.32.exe",
-    "sha256": "cf7994b062dea172d888150bfacfc1ad515901c79a8bd98b145cc941ae2199bd",
-    "size": 131380854
+    "file": "Serenity-Framework-Setup-1.33.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.33/Serenity-Framework-Setup-1.33.exe",
+    "sha256": "282a052ca4ea966e516796b5a9d8beedddb80fc0cd291ecea31386ba5e042037",
+    "size": 131382469
   }
 }
