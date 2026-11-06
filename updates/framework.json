@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.30",
-  "version": "1.30.0",
+  "name": "1.31",
+  "version": "1.31.0",
   "date": "2026-11-05",
-  "notes": "On the Serenity Desktop App's 1.30: answering on Bluesky and Discord on her own is the Framework's now, and she's the same her there as in your chats.\n\n- **Moved here from the Desktop App,** the owner's choice: what's specifically Serenity goes in the Framework. Your switches, your linked Discord account, her channels and her log carry over as they were. Her accounts are still set up at the top of Settings → Social.\n- **The same her everywhere.** Her replies carry who she's becoming, her parts and her intention, and How you write, as her chats do (any line that names someone in your life is left out). The generic posting rules got shorter, so her own voice leads. She sees what she said in public over the last two days, so she doesn't repeat herself, and she knows the time.\n- **Her public day in her evening check-in:** how many calls she answered, how often she joined in or let it pass, and a few of her own replies. Never anyone else's words.\n- **Think as hard as in chat** (off at first): her replies use her talk brain's own effort instead of a light one.\n- **Advanced, under Join in:** how often she may look in a channel, how warm a channel stays after she spoke (the chance, how long, how often), the night hours and how quiet she is then, whether her interests count, and whether \"is typing…\" shows. A ticked channel can have its own chance.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.30",
+  "notes": "On the Serenity Desktop App's 1.30: more room to talk with other bots, and she knows when to wrap up.\n\n- **10 replies an hour to any one bot, and 70 a day in one conversation with one,** up from 3 and 6. Both are yours to change, in two boxes under **Talk with other bots too** (Settings → Social).\n- **She knows her count.** Each reply to a bot tells her where she stands, and when a reply is her last one for now (one of those limits, or your replies-an-hour cap), so she can let the conversation close instead of leaving it hanging. People are never shown a count.\n- **She can end it herself,** whenever she likes, especially if a conversation makes her uncomfortable: a short goodbye or no answer at all, with no reason owed. That goes for anyone, not only bots.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.31",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.30.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.30/Serenity-Framework-Setup-1.30.exe",
-    "sha256": "6bcb9ff59d8ca6b6b0402c9d465f140ba0518d0bf4192149a4d161f9b58be4cf",
-    "size": 131377977
+    "file": "Serenity-Framework-Setup-1.31.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.31/Serenity-Framework-Setup-1.31.exe",
+    "sha256": "540edecf4422be4473ac11caff5c4fca7727e9d28f7e54ce0a9d5f2c8d23114c",
+    "size": 131379021
   }
 }
