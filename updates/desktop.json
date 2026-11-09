@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.31",
-  "version": "1.31.0",
-  "date": "2026-11-06",
-  "notes": "She remembers the words of her other chats with you.\n\n- **A quote from another chat brings it back.** Paste something either of you said in another chat, and she sees that part of it, word for word, with the chat's title and date, so she can say whether she remembers it. Before, a past chat left her only a short summary, which a pasted line rarely matched.\n- **She can look through them herself** (`search_past_chats`) when you ask \"remember when we…?\". It runs without asking: it's local and read-only.\n- Only ever her chats with the person she's talking with, with the same agent. Another person's chats stay theirs, and nothing leaves your computer. It works with her inner life off too.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.31",
+  "name": "1.40",
+  "version": "1.40.0",
+  "date": "2026-11-09",
+  "notes": "She reads PDFs and Word files on the web, and her free time can add a reader for other formats.\n\n- **PDFs and Word files on the web** are read for their text, in a chat (`web_fetch`) and in her free time, as attachments already were. A file over 25 MB, a scanned PDF with no text, or one that won't open says so plainly.\n- **A format she can't read, in free time.** Under Settings → Agents, each agent has **Add an MCP server on her own when a page is in a format she can't read** (they, for agents other than Serenity). It's off at first, and switching it on asks in a dialog. When it's on and a page in free time comes back unreadable, she may add an MCP server that reads it, from npm, PyPI or an https address, without asking. She gets one more turn to use it and reads what it gives back like a page.\n  - At most one server each free time, kept to her and listed in Settings → Utilities → MCP, where you can switch it off or remove it. Her journal says what she added and used.\n  - Never once something she read that free time looked like it was trying to direct her. A tool that says it changes things is never used. Its arguments may hold public web addresses, but never a place on your computer, a secret or anything about the people she talks with.\n  - A server she added before can be used again in a later free time.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.40",
   "windows": {
-    "file": "Serenity-Setup-1.31.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.31/Serenity-Setup-1.31.exe",
-    "sha256": "438659107edc8662525ef2b2d19c813fd2b8aeb42dd5deaa65fefcbcfbaed54f",
-    "size": 131202831
+    "file": "Serenity-Setup-1.40.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.40/Serenity-Setup-1.40.exe",
+    "sha256": "3c2593c556d5f7cc703cf555937a94e40113950637466b770737316fd7157379",
+    "size": 131208265
   }
 }
