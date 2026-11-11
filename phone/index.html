@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Serenity on your phone</title>
+    <meta name="description" content="The Serenity app for Android: talk with Serenity and your agents on your computer, from your phone." />
+    <meta name="robots" content="noindex" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="../assets/bow.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to the content</a>
+
+    <!-- The bow from Serenity Desktop Hub, as in the app -->
+    <svg class="visually-hidden" aria-hidden="true" focusable="false">
+      <symbol id="bow" viewBox="0 0 40 32">
+        <path d="M20 15C14 4 3 2 3 11c0 7 9 8 17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M20 15c6-11 17-13 17-4 0 7-9 8-17 4z" fill="#f78fb3" stroke="#eb4c81" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M9 9.5c2 .3 4.5 2 6 4M31 9.5c-2 .3-4.5 2-6 4" stroke="#fff" stroke-width="1.4" stroke-linecap="round" fill="none" opacity=".7" />
+        <path d="M18 17l-6 13 4-1.2 2.2 3 1.8-14.8zM22 17l6 13-4-1.2-2.2 3-1.8-14.8z" fill="#eb4c81" />
+        <circle cx="20" cy="15.5" r="4.2" fill="#eb4c81" />
+        <circle cx="18.8" cy="14.3" r="1.2" fill="#fff" opacity=".6" />
+      </symbol>
+    </svg>
+
+    <header class="top">
+      <div class="wrap top-inner">
+        <a class="brand" href="../index.html">
+          <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+          <span class="brand-name"><b>Serenity</b><small>Framework for Agents</small></span>
+        </a>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="section wrap" aria-labelledby="get-title">
+        <div class="section-head">
+          <h2 id="get-title">Serenity on your phone</h2>
+          <p>
+            Talk with Serenity and your agents on your computer from your Android phone, and answer her steps with Run
+            or Skip, at home or anywhere else. Everything between the phone and the computer is end-to-end encrypted, and
+            only a phone you pair on the computer can connect.
+          </p>
+        </div>
+
+        <div class="installers">
+          <article class="installer stitch">
+            <div class="installer-head">
+              <span class="card-icon" aria-hidden="true">📱</span>
+              <h3>Android</h3>
+              <span class="pill">6 MB</span>
+            </div>
+            <p>
+              <a class="btn btn-primary" href="serenity-phone-1.00.apk" download>serenity-phone-1.00.apk</a>
+            </p>
+            <p>
+              Open it on your phone. Android asks you to allow installs from your browser or file manager first, and
+              Play Protect may say it doesn't know the developer: choose "Install anyway". It isn't in the Play Store.
+            </p>
+            <p class="meta">Version 1.00, a test version. Android 11 or newer.</p>
+          </article>
+          <article class="installer stitch">
+            <div class="installer-head">
+              <span class="card-icon" aria-hidden="true">💞</span>
+              <h3>Pairing it</h3>
+            </div>
+            <p>
+              It needs the Serenity Framework's Settings → Phone on your computer, which comes in its next release.
+              There, switch it on, press Pair a phone, and in the app tap Scan the code. Then say yes on the computer.
+            </p>
+            <p>
+              At home it connects straight to the computer. To reach it from anywhere, set up a relay in Settings → Phone
+              before you pair: a small server you run, which passes the sealed messages along without being able to read them.
+            </p>
+          </article>
+        </div>
+
+        <details class="sums stitch">
+          <summary>Checking the file (SHA-256)</summary>
+          <pre><code>3f2789d5565679fb51923309739fb17d20534979ab48d692f2efcc647ed2561d  serenity-phone-1.00.apk</code></pre>
+          <p>
+            It's signed with the Serenity Framework's key, whose certificate's SHA-256 is
+            <code>bd88bf0c268efbfbd57e96fb5f9f92c62b1498f6b064394cd80eff79a394d9b7</code>. Every update is signed with
+            the same key, so it installs over this one.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <svg aria-hidden="true" focusable="false"><use href="#bow" /></svg>
+        <p>The Serenity Framework for Agents, made with care by Silvaria Sereneblossom.</p>
+        <p>This page has no scripts and no trackers.</p>
+      </div>
+    </footer>
+  </body>
+</html>
