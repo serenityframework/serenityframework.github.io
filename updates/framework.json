@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.50",
-  "version": "1.50.0",
+  "name": "1.51",
+  "version": "1.51.0",
   "date": "2026-11-11",
-  "notes": "Computer care: an agent you pick looks after your computer, and nothing is deleted. On the Serenity Desktop App's 1.50.\n\n- **A new section, 🧹 Computer care.** You pick the drives and folders, how often (every day, week or month) and which agent looks after it. It looks only while you're away from the computer and it isn't on battery, or sooner when a drive runs low. **Look now** looks at once.\n- **What it looks at:** free space, old temp files, app and browser caches (a browser's waits while it's open), big or old downloads, duplicates with the same content, the Recycle Bin, programs that start when you sign in, and the system's own places. The last two are only reported, with where you'd change or clear them.\n- **Memory, every 5 minutes** (numbers only, kept a week): kernel memory that's too big or keeps climbing, with the drivers behind it, a program that keeps growing and never comes back down, and memory near full. It only tells you; nothing is ended or changed.\n- **Your agent's look.** She explains each thing in plain words, says what's worth doing, proposes a few clean-ups, and remembers what you chose to keep. It's one call per look, on her daily budget (Spend shows it as Computer care). She sees names, sizes and dates, never what's inside a file.\n- **Her task memory** keeps a note of each look and of what you cleaned, kept or undid, so she can talk it through in a task chat.\n- **Nothing goes without you.** Tick what you'd like cleared and say yes in the dialog: it goes to the Recycle Bin (the trash on Linux), with **Undo** for each clean-up. Anything Windows would delete for good instead is left alone. Emptying the bin is its own step, and says it can't be undone.\n- **Ask her about it.** \"Let her answer my questions about this computer in chats\" lets her read the latest look, memory now, where a folder's space goes and free space, read-only.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.50",
+  "notes": "Computer care maps where your space goes, as WinDirStat does. Still on the Serenity Desktop App's 1.50.\n\n- **A full map of each drive or folder you pick.** Every folder by size, the biggest files, and space by kind of file. It walks a bit at a time while you're away from the computer and picks up where it stopped, or all at once with **Map now** (and **Stop**). On the page, a treemap you can click into, and the same folders as a list with their share.\n- **Your agent looks closer.** In her look she reads the map, opens the folders she wants to see inside (a few rounds at most, each on her daily budget), and explains the biggest users of space in plain words: a game library, a virtual machine's disk, an old backup.\n- **Big files you haven't touched in six months** (1 GB or more, outside system and app folders) can be cleared like anything else: tick, say yes, and they go to the Recycle Bin, with Undo.\n- **Ask her about it.** With \"Let her answer my questions about this computer in chats\" on, she can walk the map with you a folder at a time.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.51",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.50.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.50/Serenity-Framework-Setup-1.50.exe",
-    "sha256": "8db60833cf96cbdeb091f17d94e998068805f56bcfcc2a2a0dede7f59ef69ceb",
-    "size": 131427421
+    "file": "Serenity-Framework-Setup-1.51.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.51/Serenity-Framework-Setup-1.51.exe",
+    "sha256": "b40c2de04e8c38c32c9008204c4e8327a612288ad34d31e7bed98a606d1aff8c",
+    "size": 131436206
   }
 }
