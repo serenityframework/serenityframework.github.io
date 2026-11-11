@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.40",
-  "version": "1.40.0",
-  "date": "2026-11-09",
-  "notes": "On the Serenity Desktop App's 1.40: she reads PDFs on the web, and her free time can add a reader for other formats.\n\n- **PDFs and Word files on the web** are read for their text, in a chat and in her free time, as attachments already were. A file over 25 MB, a scanned PDF with no text, or one that won't open says so plainly.\n- **A format she can't read, in free time.** Under Settings → Agents, each agent has **Add an MCP server on her own when a page is in a format she can't read** (they, for agents other than Serenity). It's off at first, and switching it on asks in a dialog. When it's on and a page in free time comes back unreadable, she may add an MCP server that reads it, from npm, PyPI or an https address, without asking, and use it on one more turn.\n  - At most one server each free time, kept to her and listed in Settings → Utilities → MCP, where you can switch it off or remove it. Her journal says what she added and used.\n  - Never once something she read that free time looked like it was trying to direct her. A tool that says it changes things is never used, and its arguments may hold public web addresses but never a place on your computer, a secret or anything about the people she talks with.\n- Nothing here changed: `desktop/` moved to the Desktop App's 1.40.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.40",
+  "name": "1.50",
+  "version": "1.50.0",
+  "date": "2026-11-11",
+  "notes": "Computer care: an agent you pick looks after your computer, and nothing is deleted. On the Serenity Desktop App's 1.50.\n\n- **A new section, 🧹 Computer care.** You pick the drives and folders, how often (every day, week or month) and which agent looks after it. It looks only while you're away from the computer and it isn't on battery, or sooner when a drive runs low. **Look now** looks at once.\n- **What it looks at:** free space, old temp files, app and browser caches (a browser's waits while it's open), big or old downloads, duplicates with the same content, the Recycle Bin, programs that start when you sign in, and the system's own places. The last two are only reported, with where you'd change or clear them.\n- **Memory, every 5 minutes** (numbers only, kept a week): kernel memory that's too big or keeps climbing, with the drivers behind it, a program that keeps growing and never comes back down, and memory near full. It only tells you; nothing is ended or changed.\n- **Your agent's look.** She explains each thing in plain words, says what's worth doing, proposes a few clean-ups, and remembers what you chose to keep. It's one call per look, on her daily budget (Spend shows it as Computer care). She sees names, sizes and dates, never what's inside a file.\n- **Her task memory** keeps a note of each look and of what you cleaned, kept or undid, so she can talk it through in a task chat.\n- **Nothing goes without you.** Tick what you'd like cleared and say yes in the dialog: it goes to the Recycle Bin (the trash on Linux), with **Undo** for each clean-up. Anything Windows would delete for good instead is left alone. Emptying the bin is its own step, and says it can't be undone.\n- **Ask her about it.** \"Let her answer my questions about this computer in chats\" lets her read the latest look, memory now, where a folder's space goes and free space, read-only.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.50",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.40.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.40/Serenity-Framework-Setup-1.40.exe",
-    "sha256": "3be2fd84f40a121a59c417998f7ae416882eba14c984ab3ac4e7b0a38363a21a",
-    "size": 131392706
+    "file": "Serenity-Framework-Setup-1.50.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.50/Serenity-Framework-Setup-1.50.exe",
+    "sha256": "8db60833cf96cbdeb091f17d94e998068805f56bcfcc2a2a0dede7f59ef69ceb",
+    "size": 131427421
   }
 }
