@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.40",
-  "version": "1.40.0",
-  "date": "2026-11-09",
-  "notes": "She reads PDFs and Word files on the web, and her free time can add a reader for other formats.\n\n- **PDFs and Word files on the web** are read for their text, in a chat (`web_fetch`) and in her free time, as attachments already were. A file over 25 MB, a scanned PDF with no text, or one that won't open says so plainly.\n- **A format she can't read, in free time.** Under Settings → Agents, each agent has **Add an MCP server on her own when a page is in a format she can't read** (they, for agents other than Serenity). It's off at first, and switching it on asks in a dialog. When it's on and a page in free time comes back unreadable, she may add an MCP server that reads it, from npm, PyPI or an https address, without asking. She gets one more turn to use it and reads what it gives back like a page.\n  - At most one server each free time, kept to her and listed in Settings → Utilities → MCP, where you can switch it off or remove it. Her journal says what she added and used.\n  - Never once something she read that free time looked like it was trying to direct her. A tool that says it changes things is never used. Its arguments may hold public web addresses, but never a place on your computer, a secret or anything about the people she talks with.\n  - A server she added before can be used again in a later free time.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.40",
+  "name": "1.50",
+  "version": "1.50.0",
+  "date": "2026-11-11",
+  "notes": "For the Serenity Framework's Computer care: a section of an app built on Serenity can have an agent look at its things.\n\n- **Section agents.** A Framework section can ask an agent to think about something it found, on a brain under that agent's daily inner-life budget. Settings → API Management → Spend shows those calls under the section's own name (\"Computer care\").\n- **Its own notes in her task memory.** The section can add notes about the owner to the agent's work memory, which comes back only in task chats, and it can read back or take back only its own notes, never the rest of her memory.\n- **A dialog for the person.** The section asks the person before anything happens, in the same kind of dialog her presence on Bluesky and Discord uses.\n- Nothing changes in the standalone app, which has no sections.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.50",
   "windows": {
-    "file": "Serenity-Setup-1.40.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.40/Serenity-Setup-1.40.exe",
-    "sha256": "3c2593c556d5f7cc703cf555937a94e40113950637466b770737316fd7157379",
-    "size": 131208265
+    "file": "Serenity-Setup-1.50.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.50/Serenity-Setup-1.50.exe",
+    "sha256": "e0dedf588d32399beacb87671eca797fae62619289570ce0ce2edc334353c1d0",
+    "size": 131210516
   }
 }
