@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.52",
-  "version": "1.52.0",
+  "name": "1.53",
+  "version": "1.53.0",
   "date": "2026-11-12",
-  "notes": "Computer care looks closer before anything goes, and her presence keeps the dot rule. On the Serenity Desktop App's 1.51.\n\n- **Look again.** A new button in Computer care: your agent goes back over what was found (downloads, big files, duplicates), without a new scan, and checks whether each one belongs to a project. She looks at your Projects, project files near it (a code project's, or a translation's patches, tables and scripts), what's next to it and how recently that changed. Whatever she says is part of a project is kept out of her proposals, and if you tick it anyway, the dialog warns you first. Every look also flags what sits inside a project you've listed.\n- **Inside apps' own data and hidden folders too.** Big files, duplicates and her folder tool now look in AppData and hidden folders (a box on the page turns it off). Version control's own folders, like `.git`, are never offered for clearing.\n- **Computer care no longer holds other apps' files open.** Mapping a drive could keep an app's `.asar` files open while the Framework ran, which made that app's installer fail. It also counted what's inside those archives as extra files.\n- **The dot rule in follow-ups.** In the Discord servers on an agent's `dotGuilds` list (the Desktop App's 1.51), a message starting with a single dot isn't for her. Follow-ups now skip those too.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.52",
+  "notes": "The dot rule holds in what she reads around a message, too. Still on the Serenity Desktop App's 1.51.\n\n- In the Discord servers on an agent's `dotGuilds` list, a message starting with a single dot already never reached her. But when she answered the next message in that channel, the few messages she reads around it came straight from Discord, so she could still read the dot one there. Now it's left out of those too, whether she's answering a call or joining in. Starting with \"..\" still reaches her, and other servers are as before.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.53",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.52.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.52/Serenity-Framework-Setup-1.52.exe",
-    "sha256": "d0412107b593b31712ba5a05dc75cede77f06142f69809c4aa805ef98b1086f7",
-    "size": 131441948
+    "file": "Serenity-Framework-Setup-1.53.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.53/Serenity-Framework-Setup-1.53.exe",
+    "sha256": "cad39daa62bdaa278273420d766835e8cf3fcd164283fd4a57c6ff08cdadc274",
+    "size": 131442146
   }
 }
