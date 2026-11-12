@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.50",
-  "version": "1.50.0",
+  "name": "1.51",
+  "version": "1.51.0",
   "date": "2026-11-11",
-  "notes": "For the Serenity Framework's Computer care: a section of an app built on Serenity can have an agent look at its things.\n\n- **Section agents.** A Framework section can ask an agent to think about something it found, on a brain under that agent's daily inner-life budget. Settings → API Management → Spend shows those calls under the section's own name (\"Computer care\").\n- **Its own notes in her task memory.** The section can add notes about the owner to the agent's work memory, which comes back only in task chats, and it can read back or take back only its own notes, never the rest of her memory.\n- **A dialog for the person.** The section asks the person before anything happens, in the same kind of dialog her presence on Bluesky and Discord uses.\n- Nothing changes in the standalone app, which has no sections.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.50",
+  "notes": "On Discord, servers where a leading dot means \"not for her\".\n\n- **The dot rule.** Some servers use a message starting with a dot for commands and side chatter. For the servers you list in an agent's `dotGuilds` setting (settings.json, under `social.agents.<agent>`, as server ids in quotes), she skips any message there that starts with a single dot: it doesn't reach her inbox, and she doesn't overhear it to join in. Someone who writes \"..\" (or more dots) at the start is taken as written, so they can still reach her. DMs and other servers are as before.\n- There's no switch in Settings for it yet.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.51",
   "windows": {
-    "file": "Serenity-Setup-1.50.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.50/Serenity-Setup-1.50.exe",
-    "sha256": "e0dedf588d32399beacb87671eca797fae62619289570ce0ce2edc334353c1d0",
-    "size": 131210516
+    "file": "Serenity-Setup-1.51.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.51/Serenity-Setup-1.51.exe",
+    "sha256": "8693a3f230b9fdbadd3d07461e393a518bfbddd95d9989cf8a5484f9fa594416",
+    "size": 131211192
   }
 }
