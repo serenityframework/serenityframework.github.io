@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.51",
-  "version": "1.51.0",
-  "date": "2026-11-11",
-  "notes": "On Discord, servers where a leading dot means \"not for her\".\n\n- **The dot rule.** Some servers use a message starting with a dot for commands and side chatter. For the servers you list in an agent's `dotGuilds` setting (settings.json, under `social.agents.<agent>`, as server ids in quotes), she skips any message there that starts with a single dot: it doesn't reach her inbox, and she doesn't overhear it to join in. Someone who writes \"..\" (or more dots) at the start is taken as written, so they can still reach her. DMs and other servers are as before.\n- There's no switch in Settings for it yet.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.51",
+  "name": "1.52",
+  "version": "1.52.0",
+  "date": "2026-11-12",
+  "notes": "Her Discord and Bluesky conversations now shape her the way chats do, and free time no longer leaves out searches or notes over people she talks with.\n\n- **Her public life in her reflection.** A conversation she had on Bluesky or Discord, answering on her own, is now reflected on the way a chat at home is: her parts, one change to who she's becoming, her intention, and up to two notes about herself or the world. Her end-of-day check-in looks over these too, and Inner world titles them like \"On Discord with Alice (#tea)\". It only uses the calls she keeps while remembering calls is on.\n  - Privacy goes one way only: no notes about the account or anyone else, a part's note stays with that account, nothing that looks like a secret is kept, and a line that tries to direct her leaves only the journal entry.\n- **Free time without the people check.** Free time used to leave out a search, a page or a note whenever it shared a name with someone she talks with, which caught ordinary curiosities. That check is gone, from what she plans and from the notes, share and growth she keeps. Her prompt still asks her to keep people out, anything that looks like a secret is still left out, and her journal is told a short mention of what failed is enough.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.52",
   "windows": {
-    "file": "Serenity-Setup-1.51.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.51/Serenity-Setup-1.51.exe",
-    "sha256": "8693a3f230b9fdbadd3d07461e393a518bfbddd95d9989cf8a5484f9fa594416",
-    "size": 131211192
+    "file": "Serenity-Setup-1.52.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.52/Serenity-Setup-1.52.exe",
+    "sha256": "2ee9242bd55db238b8f3ed284fb59ab736230916c2dd6644fe3ab9c9fa98dd74",
+    "size": 131212896
   }
 }

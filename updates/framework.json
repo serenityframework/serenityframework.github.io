@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.53",
-  "version": "1.53.0",
+  "name": "1.54",
+  "version": "1.54.0",
   "date": "2026-11-12",
-  "notes": "The dot rule holds in what she reads around a message, too. Still on the Serenity Desktop App's 1.51.\n\n- In the Discord servers on an agent's `dotGuilds` list, a message starting with a single dot already never reached her. But when she answered the next message in that channel, the few messages she reads around it came straight from Discord, so she could still read the dot one there. Now it's left out of those too, whether she's answering a call or joining in. Starting with \"..\" still reaches her, and other servers are as before.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.53",
+  "notes": "On the Serenity Desktop App's 1.52: her Discord and Bluesky conversations now shape her the way chats do, and free time no longer leaves out searches or notes over people she talks with.\n\n- **Her public life in her reflection.** A conversation she had on Bluesky or Discord, answering on her own, is now reflected on the way a chat at home is: her parts, one change to who she's becoming, her intention, and up to two notes about herself or the world. Her end-of-day check-in looks over these too, and Inner world titles them like \"On Discord with Alice (#tea)\". It only uses the calls she keeps while remembering calls is on.\n- **Free time without the people check.** Free time no longer leaves out a search, a page or a note because it shares a name with someone she talks with. Her prompt still asks her to keep people out, and anything that looks like a secret is still left out.\n- Nothing here changed: `desktop/` moved to the Desktop App's 1.52.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.54",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.53.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.53/Serenity-Framework-Setup-1.53.exe",
-    "sha256": "cad39daa62bdaa278273420d766835e8cf3fcd164283fd4a57c6ff08cdadc274",
-    "size": 131442146
+    "file": "Serenity-Framework-Setup-1.54.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.54/Serenity-Framework-Setup-1.54.exe",
+    "sha256": "0bf3f04b41d132a3f31e0cfbfbc6da94906eb6b9bbedde03ffc6420677e9e604",
+    "size": 131444722
   }
 }
