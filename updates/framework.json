@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.55",
-  "version": "1.55.0",
-  "date": "2026-11-14",
-  "notes": "Your config stays the way you wrote it. Still on the Serenity Desktop App's 1.52.\n\n- **Changes keep the file's own look.** When the Framework changes the Hub's `config.json` (a site, a server, a folder, an app's category), whatever the change didn't touch is now written back exactly as it was. An entry you keep on one line stays on one line, with its own spacing, and a new entry in a list of one-line entries is one line too. Before, any change spread one-line entries over several lines.\n- If the result ever wouldn't read back as exactly the right config, it's written the old way instead. A backup is still kept beside the file before the first change.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.55",
+  "name": "1.56",
+  "version": "1.56.0",
+  "date": "2026-11-16",
+  "notes": "On Discord she reads more of the room and listens before she speaks: more of the thread, who each message is for, and when silence is the better answer. Still on the Serenity Desktop App's 1.52.\n\n- **More of the thread.** Around a call or a join-in she now reads the 20 messages before it, not 8.\n- **Who each message is for.** Each line she reads says who it replies to (\"replying to you\" when it's hers), and mentions read as @names instead of Discord's raw ids.\n- **How to listen.** Every reply is told to read the whole thread and work out whose conversation it is, not to stitch fragments into a story about her, to ask once when it's unclear instead of guessing, not to sound surer than what she's read, and that staying quiet is a good outcome.\n- **Joining in is her choice.** When she reads along without being called, she's told that looking was chance and speaking is up to her, with good reasons being that someone there is talking with her, she already has a part in the thread, or something in it genuinely moves her. How often she may answer or join in is unchanged.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.56",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.55.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.55/Serenity-Framework-Setup-1.55.exe",
-    "sha256": "9287901d06051dea9f4d7fab1ee91b54e43c27c9e9e4159a7937385b0ad7da55",
-    "size": 131447424
+    "file": "Serenity-Framework-Setup-1.56.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.56/Serenity-Framework-Setup-1.56.exe",
+    "sha256": "54bfd9108c24e7a57fa1ca24ccc538bb8c25cf1b73a8474bb3cdc1a164aced37",
+    "size": 131448065
   }
 }
