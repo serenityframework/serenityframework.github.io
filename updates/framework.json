@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.60",
-  "version": "1.60.0",
+  "name": "1.61",
+  "version": "1.61.0",
   "date": "2026-11-18",
-  "notes": "On the Serenity Desktop App's 1.60: her docs, where what she writes for you to read opens beside the chat.\n\n- **A docs pane.** When something is better read as a page than as a chat message (a plan, notes, a write-up), she puts it in a doc with her new `show_doc` tool, in any chat. It opens beside the chat, where her terminal and browser go, rendered from Markdown with headings, tables, task boxes, code and links. Nothing is written to your computer, so it doesn't ask.\n- **Kept with the chat, in versions.** Each doc stays with its chat, and its card's **Open** button or **📃 Doc** at the top brings it back. When she revises one, it becomes the next version, and you can still pick the earlier ones.\n- **Copy, Save as .md and Print.** Save asks where in the system's Save dialog. Print prints only the doc, and a PDF printer makes a PDF.\n- **Safe to read.** Any HTML or script in a doc is shown as text. If she wrote it after reading something from outside, or it looks like it's trying to give an AI instructions, the card and the pane say so.\n- Nothing here changed: `desktop/` moved to the Desktop App's 1.60.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.60",
+  "notes": "A fix for the Framework freezing as it opens.\n\n- **No more freeze on start.** The Network map gives each item its own id, adding \"-2\" to one that's taken. Once an id reached 40 characters, adding \"-2\" and cutting it back to 40 changed nothing, so it looped forever. A tailnet with many peers of the same name froze the app before its window could draw. Now it counts up (-2, -3…) within 40 characters.\n- **Funnel's relays are left off the map.** A tailnet using Tailscale Funnel lists Tailscale's own ingress relays as peers, often dozens, all called funnel-ingress-node. They aren't your devices, so the map leaves them out.\n- `desktop/` is still the Desktop App's 1.60.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.61",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.60.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.60/Serenity-Framework-Setup-1.60.exe",
-    "sha256": "25932abdf4cab5233e909b63d03297579f8e4c5544db68624a36416b374f9f9f",
-    "size": 131479343
+    "file": "Serenity-Framework-Setup-1.61.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.61/Serenity-Framework-Setup-1.61.exe",
+    "sha256": "daaa32a489e41e229d9902a82709aa5a543451332146ad4485b26c71d8d8bd93",
+    "size": 131479761
   }
 }
