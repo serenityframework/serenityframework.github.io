@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.57",
-  "version": "1.57.0",
-  "date": "2026-11-17",
-  "notes": "Sites, with a live map of your network that Serenity draws and keeps up. On the Serenity Desktop App's 1.53.\n\n- **Sites & homelab is now Sites,** with two tabs. Status is the list of your sites and servers as before. Network map is new.\n- **A live network map.** It reads, while the app runs: Proxmox every minute (nodes, VMs and containers, CPU, memory, storage and quorum), Tailscale every minute (your tailnet's devices, online or when last seen), the devices this computer has seen on your network every five minutes (from its own ARP table, so nothing is scanned), and the site and server checks. The map shows it as a wiring diagram: the public face with a relay's routes, the internet and router above your network, a cluster with each VM inside its node, and the tailnet, with live dots that refresh while you watch.\n- **Serenity draws it.** She lays it out and writes notes worth knowing, on her daily budget: when you ask, the first time there's something to draw, and when something new turns up (a VM, a node, a tailnet device, a site or a server), at most every six hours. Before she has drawn one, the map is drawn from what was found. Anything new that isn't on the map yet is listed below it.\n- **She can change it in chat,** when Sites is open to her in Settings → Agents: add or change items, groups and notes, rename it, or undo. Each change asks first, like a file edit, and Undo goes back through the last 20.\n- **Proxmox, read-only.** You make an API token with the PVEAuditor role and paste it in the map's Sources. Its certificate is trusted by the fingerprint you check there, and the token is only ever sent over that checked connection. The secret is kept encrypted on this computer and never reaches the page or Serenity.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.57",
+  "name": "1.60",
+  "version": "1.60.0",
+  "date": "2026-11-18",
+  "notes": "On the Serenity Desktop App's 1.60: her docs, where what she writes for you to read opens beside the chat.\n\n- **A docs pane.** When something is better read as a page than as a chat message (a plan, notes, a write-up), she puts it in a doc with her new `show_doc` tool, in any chat. It opens beside the chat, where her terminal and browser go, rendered from Markdown with headings, tables, task boxes, code and links. Nothing is written to your computer, so it doesn't ask.\n- **Kept with the chat, in versions.** Each doc stays with its chat, and its card's **Open** button or **📃 Doc** at the top brings it back. When she revises one, it becomes the next version, and you can still pick the earlier ones.\n- **Copy, Save as .md and Print.** Save asks where in the system's Save dialog. Print prints only the doc, and a PDF printer makes a PDF.\n- **Safe to read.** Any HTML or script in a doc is shown as text. If she wrote it after reading something from outside, or it looks like it's trying to give an AI instructions, the card and the pane say so.\n- Nothing here changed: `desktop/` moved to the Desktop App's 1.60.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.60",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.57.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.57/Serenity-Framework-Setup-1.57.exe",
-    "sha256": "a180f368d187d4557b0afdac8a563bed619e3df1fb0fea5e751671839db5f89c",
-    "size": 131471644
+    "file": "Serenity-Framework-Setup-1.60.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.60/Serenity-Framework-Setup-1.60.exe",
+    "sha256": "25932abdf4cab5233e909b63d03297579f8e4c5544db68624a36416b374f9f9f",
+    "size": 131479343
   }
 }
