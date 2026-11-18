@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.53",
-  "version": "1.53.0",
-  "date": "2026-11-17",
-  "notes": "A place an app built on Serenity opens to her can now let her change something there, asking first. The Serenity Framework's network map is the first to use it.\n\n- **Tools that change something.** Until now, everything a section opened to her (Projects, Games, Sites) only looked. A section can now mark a tool as changing something it keeps, never the computer itself. She's told it changes something, and it asks before it runs, the way a file edit does: unless asking is off or skip permissions covers it, and always after something she read in the same reply looked like it was steering her. The card shows what she wants to change, and the log says what changed.\n- **Settings → Agents says which places can change things.** Such a place is marked \"can change, asks first\", and the words above the choices say so.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.53",
+  "name": "1.60",
+  "version": "1.60.0",
+  "date": "2026-11-18",
+  "notes": "Her docs: what she writes for you to read opens beside the chat.\n\n- **A docs pane.** When something is better read as a page than as a chat message (a plan, notes, a write-up), she puts it in a doc with her new `show_doc` tool, in any chat. It opens beside the chat, where her terminal and browser go, rendered from Markdown with headings, tables, task boxes, code and links. Nothing is written to your computer, so it doesn't ask.\n- **Kept with the chat, in versions.** Each doc stays with its chat, and its card's **Open** button or **📃 Doc** at the top brings it back. When she revises one, it becomes the next version, and you can still pick the earlier ones.\n- **Copy, Save as .md and Print.** Save asks where in the system's Save dialog. Print prints only the doc, and a PDF printer makes a PDF.\n- **Safe to read.** Any HTML or script in a doc is shown as text. If she wrote it after reading something from outside, or it looks like it's trying to give an AI instructions, the card and the pane say so.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.60",
   "windows": {
-    "file": "Serenity-Setup-1.53.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.53/Serenity-Setup-1.53.exe",
-    "sha256": "78057dac18e2890e32318bfb0e6b409bec4cc83daf66f93400c729a3690284df",
-    "size": 131213502
+    "file": "Serenity-Setup-1.60.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.60/Serenity-Setup-1.60.exe",
+    "sha256": "f0f90cd70f529987277047cc3435aa07c372c68ea5b2a1bc2d482a6c5f10b103",
+    "size": 131220399
   }
 }
