@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.56",
-  "version": "1.56.0",
-  "date": "2026-11-16",
-  "notes": "On Discord she reads more of the room and listens before she speaks: more of the thread, who each message is for, and when silence is the better answer. Still on the Serenity Desktop App's 1.52.\n\n- **More of the thread.** Around a call or a join-in she now reads the 20 messages before it, not 8.\n- **Who each message is for.** Each line she reads says who it replies to (\"replying to you\" when it's hers), and mentions read as @names instead of Discord's raw ids.\n- **How to listen.** Every reply is told to read the whole thread and work out whose conversation it is, not to stitch fragments into a story about her, to ask once when it's unclear instead of guessing, not to sound surer than what she's read, and that staying quiet is a good outcome.\n- **Joining in is her choice.** When she reads along without being called, she's told that looking was chance and speaking is up to her, with good reasons being that someone there is talking with her, she already has a part in the thread, or something in it genuinely moves her. How often she may answer or join in is unchanged.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.56",
+  "name": "1.57",
+  "version": "1.57.0",
+  "date": "2026-11-17",
+  "notes": "Sites, with a live map of your network that Serenity draws and keeps up. On the Serenity Desktop App's 1.53.\n\n- **Sites & homelab is now Sites,** with two tabs. Status is the list of your sites and servers as before. Network map is new.\n- **A live network map.** It reads, while the app runs: Proxmox every minute (nodes, VMs and containers, CPU, memory, storage and quorum), Tailscale every minute (your tailnet's devices, online or when last seen), the devices this computer has seen on your network every five minutes (from its own ARP table, so nothing is scanned), and the site and server checks. The map shows it as a wiring diagram: the public face with a relay's routes, the internet and router above your network, a cluster with each VM inside its node, and the tailnet, with live dots that refresh while you watch.\n- **Serenity draws it.** She lays it out and writes notes worth knowing, on her daily budget: when you ask, the first time there's something to draw, and when something new turns up (a VM, a node, a tailnet device, a site or a server), at most every six hours. Before she has drawn one, the map is drawn from what was found. Anything new that isn't on the map yet is listed below it.\n- **She can change it in chat,** when Sites is open to her in Settings → Agents: add or change items, groups and notes, rename it, or undo. Each change asks first, like a file edit, and Undo goes back through the last 20.\n- **Proxmox, read-only.** You make an API token with the PVEAuditor role and paste it in the map's Sources. Its certificate is trusted by the fingerprint you check there, and the token is only ever sent over that checked connection. The secret is kept encrypted on this computer and never reaches the page or Serenity.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.57",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.56.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.56/Serenity-Framework-Setup-1.56.exe",
-    "sha256": "54bfd9108c24e7a57fa1ca24ccc538bb8c25cf1b73a8474bb3cdc1a164aced37",
-    "size": 131448065
+    "file": "Serenity-Framework-Setup-1.57.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.57/Serenity-Framework-Setup-1.57.exe",
+    "sha256": "a180f368d187d4557b0afdac8a563bed619e3df1fb0fea5e751671839db5f89c",
+    "size": 131471644
   }
 }
