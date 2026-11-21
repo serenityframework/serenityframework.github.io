@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.60",
-  "version": "1.60.0",
-  "date": "2026-11-18",
-  "notes": "Her docs: what she writes for you to read opens beside the chat.\n\n- **A docs pane.** When something is better read as a page than as a chat message (a plan, notes, a write-up), she puts it in a doc with her new `show_doc` tool, in any chat. It opens beside the chat, where her terminal and browser go, rendered from Markdown with headings, tables, task boxes, code and links. Nothing is written to your computer, so it doesn't ask.\n- **Kept with the chat, in versions.** Each doc stays with its chat, and its card's **Open** button or **📃 Doc** at the top brings it back. When she revises one, it becomes the next version, and you can still pick the earlier ones.\n- **Copy, Save as .md and Print.** Save asks where in the system's Save dialog. Print prints only the doc, and a PDF printer makes a PDF.\n- **Safe to read.** Any HTML or script in a doc is shown as text. If she wrote it after reading something from outside, or it looks like it's trying to give an AI instructions, the card and the pane say so.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.60",
+  "name": "1.70",
+  "version": "1.70.0",
+  "date": "2026-11-21",
+  "notes": "Git, and links to your files and folders, like the ones Claude Code has.\n\n- **A git tool.** In a chat with Tasks on, she uses git in your allowed folders with its own tool instead of typing git commands. Reading never asks: status, diffs, the log, a commit, blame, branches and the stash list. A commit, a new branch, switching branch, and stashing or unstashing show you a card first (the message and the files for a commit), and you choose Run or Skip. A commit, a new branch and a switch have **Undo** on their card. Undo turns a commit back into staged changes, and it refuses once something has changed since.\n- **Push and pull ask too.** A push asks even with asking off, because it sends your work out. With skip permissions on, a push or pull asks unless the remote is on your own network. Nothing is ever forced: no force-push, no amend, no hard reset, no skipping hooks, and a pull only fast-forwards. If git refuses, she tells you what it said.\n- **Your projects, for reading.** An app built on Serenity can list repositories she may read (the Serenity Framework's Projects). In a chat with an agent you've let look at that place, she can read them by name, with or without Tasks, but never change them. Changing a repository needs its folder under Settings → Tasks.\n- **Careful with what a repository says.** Reading turns off the settings in a repository that could start a program (an fsmonitor, external diff tools), and nothing she names can be read as an option. What git shows her is treated as content, never instructions, like a file she reads. If git isn't installed, she says so and points to git-scm.com.\n- **Links to files and folders.** A path in her message, or in one of her docs, becomes a link when it's a real file or folder on this computer. Click it to see it selected in Explorer (your file manager on Linux). The small **↗** beside it opens it in its usual app. Programs, scripts and shortcuts are only ever shown, never opened. Serenity's own data folder and network paths (`\\\\server\\share`) never become links, so a message can't send your Windows sign-in to another computer. A path with spaces needs to be in `backticks` to be found.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.70",
   "windows": {
-    "file": "Serenity-Setup-1.60.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.60/Serenity-Setup-1.60.exe",
-    "sha256": "f0f90cd70f529987277047cc3435aa07c372c68ea5b2a1bc2d482a6c5f10b103",
-    "size": 131220399
+    "file": "Serenity-Setup-1.70.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.70/Serenity-Setup-1.70.exe",
+    "sha256": "4420f4bae24a93d9f3b1240db655af7f3484e7ce341a4adffbfaa6dfbb1acfc0",
+    "size": 131233492
   }
 }
