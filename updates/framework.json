@@ -1,14 +1,14 @@
 {
   "product": "framework",
-  "name": "1.61",
-  "version": "1.61.0",
-  "date": "2026-11-18",
-  "notes": "A fix for the Framework freezing as it opens.\n\n- **No more freeze on start.** The Network map gives each item its own id, adding \"-2\" to one that's taken. Once an id reached 40 characters, adding \"-2\" and cutting it back to 40 changed nothing, so it looped forever. A tailnet with many peers of the same name froze the app before its window could draw. Now it counts up (-2, -3…) within 40 characters.\n- **Funnel's relays are left off the map.** A tailnet using Tailscale Funnel lists Tailscale's own ingress relays as peers, often dozens, all called funnel-ingress-node. They aren't your devices, so the map leaves them out.\n- `desktop/` is still the Desktop App's 1.60.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.61",
+  "name": "1.70",
+  "version": "1.70.0",
+  "date": "2026-11-21",
+  "notes": "On the Serenity Desktop App's 1.70: her git tool, and links to files and folders.\n\n- **Git.** In a task chat she has a `git` tool for the folders you allowed under Settings → Tasks. Reading (status, diff, log, show, blame, branches) never asks. Commit, branch, switch, stash, push and pull ask first, like a file edit, and a commit, a new branch and a switch can be undone. Nothing is ever forced.\n- **Your projects too, read-only.** An agent you've let look at Projects can read the git repositories among them with the same tool: status, diffs, history, blame. To have her change one, add its folder under Settings → Tasks.\n- **Links to files and folders.** A path in her messages or docs that really exists on this computer becomes a link. A click shows it in Explorer, and ↗ opens it (a folder or a document, never a program). Network paths and Serenity's own data folder never become links.\n- `desktop/` moved to the Desktop App's 1.70.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/framework-v1.70",
   "windows": {
-    "file": "Serenity-Framework-Setup-1.61.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.61/Serenity-Framework-Setup-1.61.exe",
-    "sha256": "daaa32a489e41e229d9902a82709aa5a543451332146ad4485b26c71d8d8bd93",
-    "size": 131479761
+    "file": "Serenity-Framework-Setup-1.70.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/framework-v1.70/Serenity-Framework-Setup-1.70.exe",
+    "sha256": "a399c64c7c9409987dbab1637245fd7c80dabc803787c75f0a95a0b1f4a4760d",
+    "size": 131493347
   }
 }
