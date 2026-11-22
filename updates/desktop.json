@@ -1,14 +1,14 @@
 {
   "product": "desktop",
-  "name": "1.70",
-  "version": "1.70.0",
+  "name": "1.71",
+  "version": "1.71.0",
   "date": "2026-11-21",
-  "notes": "Git, and links to your files and folders, like the ones Claude Code has.\n\n- **A git tool.** In a chat with Tasks on, she uses git in your allowed folders with its own tool instead of typing git commands. Reading never asks: status, diffs, the log, a commit, blame, branches and the stash list. A commit, a new branch, switching branch, and stashing or unstashing show you a card first (the message and the files for a commit), and you choose Run or Skip. A commit, a new branch and a switch have **Undo** on their card. Undo turns a commit back into staged changes, and it refuses once something has changed since.\n- **Push and pull ask too.** A push asks even with asking off, because it sends your work out. With skip permissions on, a push or pull asks unless the remote is on your own network. Nothing is ever forced: no force-push, no amend, no hard reset, no skipping hooks, and a pull only fast-forwards. If git refuses, she tells you what it said.\n- **Your projects, for reading.** An app built on Serenity can list repositories she may read (the Serenity Framework's Projects). In a chat with an agent you've let look at that place, she can read them by name, with or without Tasks, but never change them. Changing a repository needs its folder under Settings → Tasks.\n- **Careful with what a repository says.** Reading turns off the settings in a repository that could start a program (an fsmonitor, external diff tools), and nothing she names can be read as an option. What git shows her is treated as content, never instructions, like a file she reads. If git isn't installed, she says so and points to git-scm.com.\n- **Links to files and folders.** A path in her message, or in one of her docs, becomes a link when it's a real file or folder on this computer. Click it to see it selected in Explorer (your file manager on Linux). The small **↗** beside it opens it in its usual app. Programs, scripts and shortcuts are only ever shown, never opened. Serenity's own data folder and network paths (`\\\\server\\share`) never become links, so a message can't send your Windows sign-in to another computer. A path with spaces needs to be in `backticks` to be found.",
-  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.70",
+  "notes": "A fix for chats failing on every brain.\n\n- **No more \"not valid JSON\" or \"exceeds the model's context length\" from half an emoji.** An emoji is two pieces inside a string, and cutting text at a count can keep only the first one. When that half went to a provider, Claude refused the whole request (\"unexpected end of hex escape\") and NanoGPT's GLM said the prompt was too long. One of her memories of a Discord call held such a half, so every chat that recalled it failed, whatever the brain.\n- **Every request is cleaned on the way out.** Chats, her inner life, her social replies, sections' agents and web searches drop any half emoji before they're sent, wherever it came from: a memory, an MCP server, a web page or a file.\n- **Text is cut at whole characters.** Everywhere the app shortens text with \"…\", it now steps back rather than split an emoji.",
+  "page": "https://github.com/serenityframework/serenityframework.github.io/releases/tag/desktop-v1.71",
   "windows": {
-    "file": "Serenity-Setup-1.70.exe",
-    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.70/Serenity-Setup-1.70.exe",
-    "sha256": "4420f4bae24a93d9f3b1240db655af7f3484e7ce341a4adffbfaa6dfbb1acfc0",
-    "size": 131233492
+    "file": "Serenity-Setup-1.71.exe",
+    "url": "https://github.com/serenityframework/serenityframework.github.io/releases/download/desktop-v1.71/Serenity-Setup-1.71.exe",
+    "sha256": "13f62dd6134cbaa6c742a247cf524b56ddd6fc7c2e6af2b6c33817e1d4bb2126",
+    "size": 131235248
   }
 }
